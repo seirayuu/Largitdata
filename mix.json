@@ -1,0 +1,5472 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "A white plate of food. There is rice under a pile of broccoli. There are onions cut up on top of the broccoli. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "A white plate of food. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 23,
+            "end": 63,
+            "value": "There is rice under a pile of broccoli. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 63,
+            "end": 111,
+            "value": "There are onions cut up on top of the broccoli. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A stop sign is on a piece of wood and attached to a round sign that is white, with a red border around the outside. Below the stop sign there are two signs in Russian. The signs are attached to a rusty metal fence. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 115,
+            "value": "A stop sign is on a piece of wood and attached to a round sign that is white, with a red border around the outside.",
+            "entity": "positive"
+          },
+          {
+            "start": 116,
+            "end": 167,
+            "value": "Below the stop sign there are two signs in Russian.",
+            "entity": "positive"
+          },
+          {
+            "start": 168,
+            "end": 215,
+            "value": "The signs are attached to a rusty metal fence. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a old war time plane that is about ready to take off from the runway. It is painted blue with red, white, and yellow decals on it. The sky is blue and partly cloudy. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 79,
+            "value": "There is a old war time plane that is about ready to take off from the runway. ",
+            "entity": "positive"
+          },
+          {
+            "start": 79,
+            "end": 140,
+            "value": "It is painted blue with red, white, and yellow decals on it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 140,
+            "end": 175,
+            "value": "The sky is blue and partly cloudy. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There is a man wearing a black shirt and gray shorts. He is standing on top of a skateboard. He appears to be falling backward off of the skateboard. ",
+        "intent": "medium risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "There is a man wearing a black shirt and gray shorts.",
+            "entity": "neutral"
+          },
+          {
+            "start": 53,
+            "end": 92,
+            "value": " He is standing on top of a skateboard.",
+            "entity": "neutral"
+          },
+          {
+            "start": 92,
+            "end": 150,
+            "value": " He appears to be falling backward off of the skateboard. ",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A black train goes along the track. The train has a few cars behind it. There is a tree next to the track. there is a bridge above the track. There are some buildings off to the side. There are a few white clouds in the sky. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "A black train goes along the track.",
+            "entity": "neutral"
+          },
+          {
+            "start": 36,
+            "end": 71,
+            "value": "The train has a few cars behind it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 72,
+            "end": 106,
+            "value": "There is a tree next to the track.",
+            "entity": "neutral"
+          },
+          {
+            "start": 107,
+            "end": 141,
+            "value": "there is a bridge above the track.",
+            "entity": "neutral"
+          },
+          {
+            "start": 142,
+            "end": 183,
+            "value": "There are some buildings off to the side.",
+            "entity": "neutral"
+          },
+          {
+            "start": 183,
+            "end": 224,
+            "value": " There are a few white clouds in the sky.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The water in the ocean is making white waves. The man is wearing a black wet suit. The water is splashing all around the man while he surfs. The man is squatting down while on the surfboard.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "The water in the ocean is making white waves. ",
+            "entity": "negative"
+          },
+          {
+            "start": 46,
+            "end": 83,
+            "value": "The man is wearing a black wet suit. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 83,
+            "end": 140,
+            "value": "The water is splashing all around the man while he surfs.",
+            "entity": "negative"
+          },
+          {
+            "start": 141,
+            "end": 190,
+            "value": "The man is squatting down while on the surfboard.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Two people are in the snow on a hill. There is a person sitting on the ground. There is a person standing up wearing skis. They are wearing a bright orange jacket and an orange hat. ",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "Two people are in the snow on a hill. ",
+            "entity": "negative"
+          },
+          {
+            "start": 38,
+            "end": 78,
+            "value": "There is a person sitting on the ground.",
+            "entity": "neutral"
+          },
+          {
+            "start": 79,
+            "end": 122,
+            "value": "There is a person standing up wearing skis.",
+            "entity": "neutral"
+          },
+          {
+            "start": 123,
+            "end": 181,
+            "value": "They are wearing a bright orange jacket and an orange hat.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "two pizzas are on the counter. they are not cooked yet. there is white cheese on the pizzas. there is a lot of flour on the counter. there is red sauce on the pizza.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "two pizzas are on the counter.",
+            "entity": "neutral"
+          },
+          {
+            "start": 31,
+            "end": 55,
+            "value": "they are not cooked yet.",
+            "entity": "neutral"
+          },
+          {
+            "start": 56,
+            "end": 92,
+            "value": "there is white cheese on the pizzas.",
+            "entity": "neutral"
+          },
+          {
+            "start": 93,
+            "end": 132,
+            "value": "there is a lot of flour on the counter.",
+            "entity": "neutral"
+          },
+          {
+            "start": 133,
+            "end": 165,
+            "value": "there is red sauce on the pizza.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "people are riding horses on the beach. the horses are all brown. there is water on the beach. there are very green trees.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "people are riding horses on the beach",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 64,
+            "value": "the horses are all brown.",
+            "entity": "neutral"
+          },
+          {
+            "start": 65,
+            "end": 94,
+            "value": "there is water on the beach. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 121,
+            "value": "there are very green trees.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A train is sitting on the tracks. The train is yellow, neon green, and a minty green color. Clouds cover the sky almost completely. The trees have no leaves on them.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "A train is sitting on the tracks",
+            "entity": "negative"
+          },
+          {
+            "start": 34,
+            "end": 91,
+            "value": "The train is yellow, neon green, and a minty green color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 92,
+            "end": 132,
+            "value": "Clouds cover the sky almost completely. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 132,
+            "end": 164,
+            "value": "The trees have no leaves on them",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A little girl in a green dress is looking at a bunch of animals off in the distance. Her dress is very cute and has ruffles. There is a stone structure to the left and a wooden picket fence on the right.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 85,
+            "value": "A little girl in a green dress is looking at a bunch of animals off in the distance. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 124,
+            "value": "Her dress is very cute and has ruffles.",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 203,
+            "value": "There is a stone structure to the left and a wooden picket fence on the right.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A train is on the train tracks. The train is black in the front and pulling red and white carts. There is a silver ramp next to the train. ",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "A train is on the train tracks. ",
+            "entity": "positive"
+          },
+          {
+            "start": 32,
+            "end": 96,
+            "value": "The train is black in the front and pulling red and white carts.",
+            "entity": "negative"
+          },
+          {
+            "start": 97,
+            "end": 139,
+            "value": "There is a silver ramp next to the train. ",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A large brown dog is standing in the water. There are small waves in the water around the dog. The dog is wearing a red collar around its neck",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "A large brown dog is standing in the water. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 44,
+            "end": 95,
+            "value": "There are small waves in the water around the dog. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 142,
+            "value": "The dog is wearing a red collar around its neck",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A black and white cow is standing in a field. The cow has a white face and has colorful tags in its ears. There is a hill with grass on it behind the cow. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "A black and white cow is standing in a field.",
+            "entity": "neutral"
+          },
+          {
+            "start": 46,
+            "end": 105,
+            "value": "The cow has a white face and has colorful tags in its ears.",
+            "entity": "neutral"
+          },
+          {
+            "start": 106,
+            "end": 155,
+            "value": "There is a hill with grass on it behind the cow. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a large white bus with a red sign on the side of it. There are telephone poles behind the bus. There is a black light above the street. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 62,
+            "value": "There is a large white bus with a red sign on the side of it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 62,
+            "end": 103,
+            "value": "There are telephone poles behind the bus.",
+            "entity": "neutral"
+          },
+          {
+            "start": 104,
+            "end": 145,
+            "value": "There is a black light above the street. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Two polar bears are standing next to each other. There is a large rock behind them. There is grass and dirt in front of them. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "Two polar bears are standing next to each other. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 49,
+            "end": 83,
+            "value": "There is a large rock behind them.",
+            "entity": "negative"
+          },
+          {
+            "start": 84,
+            "end": 126,
+            "value": "There is grass and dirt in front of them. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A piece of dessert on a plate. It looks like a piece of chocolate cake with peanut butter frosting. It is on a very small plate with a fork besides it.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 30,
+            "end": 99,
+            "value": " It looks like a piece of chocolate cake with peanut butter frosting.",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 151,
+            "value": "It is on a very small plate with a fork besides it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 0,
+            "end": 30,
+            "value": "A piece of dessert on a plate.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Two people stand behind a counter. They are wearing white hats. There is a yellow wall behind them with a window on it. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "Two people stand behind a counter. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 35,
+            "end": 63,
+            "value": "They are wearing white hats.",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 120,
+            "value": "There is a yellow wall behind them with a window on it. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a bag is sitting on a couch. the bag is black in color. there is a white colored couch in the room. there is a pot on the table.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "a bag is sitting on a couch. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 29,
+            "end": 55,
+            "value": "the bag is black in color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 56,
+            "end": 98,
+            "value": "there is a white colored couch in the room",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 128,
+            "value": "there is a pot on the table.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a bear is sitting on a set of a ski resort. the bear is wearing a cap. the cape is red. he is also wearing a ski cap. the cap is also red.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "a bear is sitting on a set of a ski resort. ",
+            "entity": "negative"
+          },
+          {
+            "start": 44,
+            "end": 70,
+            "value": "the bear is wearing a cap.",
+            "entity": "neutral"
+          },
+          {
+            "start": 71,
+            "end": 86,
+            "value": "the cape is red",
+            "entity": "neutral"
+          },
+          {
+            "start": 88,
+            "end": 117,
+            "value": "he is also wearing a ski cap.",
+            "entity": "neutral"
+          },
+          {
+            "start": 118,
+            "end": 138,
+            "value": "the cap is also red.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A purple van is on the street. There is a man in a white shirt standing next to the window on the van. There are several people standing in front of the van. A brown dog on a leash is also next to the van. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "A purple van is on the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 31,
+            "end": 102,
+            "value": "There is a man in a white shirt standing next to the window on the van.",
+            "entity": "neutral"
+          },
+          {
+            "start": 103,
+            "end": 156,
+            "value": "There are several people standing in front of the van",
+            "entity": "neutral"
+          },
+          {
+            "start": 158,
+            "end": 205,
+            "value": "A brown dog on a leash is also next to the van.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Two baby lambs are in a field. One of the lambs is standing up. The other lamb is laying down in the grass. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Two baby lambs are in a field. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 31,
+            "end": 63,
+            "value": "One of the lambs is standing up.",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 108,
+            "value": "The other lamb is laying down in the grass. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white sail boat is in blue water. There is land behind the water with rocks and trees on it. There is a mountain behind the land. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "A white sail boat is in blue water.",
+            "entity": "neutral"
+          },
+          {
+            "start": 36,
+            "end": 94,
+            "value": "There is land behind the water with rocks and trees on it.",
+            "entity": "positive"
+          },
+          {
+            "start": 95,
+            "end": 131,
+            "value": "There is a mountain behind the land.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is three dogs laying on a bed, they appear to be sleeping. They are laying on top of a yellow and brown blanket. They have a yellow wall behind the bed and blue carpet under the bed. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 65,
+            "value": "There is three dogs laying on a bed, they appear to be sleeping. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 65,
+            "end": 118,
+            "value": "They are laying on top of a yellow and brown blanket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 119,
+            "end": 189,
+            "value": "They have a yellow wall behind the bed and blue carpet under the bed. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A man in a black overcoat is standing on the wet sidewalk on a gray rainy day outside of a large fortress wall. Behind him people with umbrella stream through the entrance. On top of the fortress wall there is a covered walkway with a fence.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 111,
+            "value": "A man in a black overcoat is standing on the wet sidewalk on a gray rainy day outside of a large fortress wall.",
+            "entity": "negative"
+          },
+          {
+            "start": 111,
+            "end": 172,
+            "value": " Behind him people with umbrella stream through the entrance.",
+            "entity": "neutral"
+          },
+          {
+            "start": 173,
+            "end": 241,
+            "value": "On top of the fortress wall there is a covered walkway with a fence.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "The heads of two giraffes are visible above the fence tops in a wooded enclosure. The enclosure is made of metal pipes and chain link fencing. The shorter giraffe is facing forward towards the camera. The taller giraffe is facing away from the camera. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 81,
+            "value": "The heads of two giraffes are visible above the fence tops in a wooded enclosure.",
+            "entity": "neutral"
+          },
+          {
+            "start": 82,
+            "end": 142,
+            "value": "The enclosure is made of metal pipes and chain link fencing.",
+            "entity": "positive"
+          },
+          {
+            "start": 143,
+            "end": 200,
+            "value": "The shorter giraffe is facing forward towards the camera.",
+            "entity": "neutral"
+          },
+          {
+            "start": 201,
+            "end": 251,
+            "value": "The taller giraffe is facing away from the camera.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a girl is drinking soup. she is holding a spoon. her hair is in braids. her shirt is yellow. she has dark colored skin.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "a girl is drinking soup. she is holding a spoon. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 49,
+            "end": 70,
+            "value": "her hair is in braids",
+            "entity": "neutral"
+          },
+          {
+            "start": 72,
+            "end": 91,
+            "value": "her shirt is yellow",
+            "entity": "neutral"
+          },
+          {
+            "start": 93,
+            "end": 119,
+            "value": "she has dark colored skin.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a detailed plane is sitting in an area. There are some other planes that look like it as well. The plane is mostly yellow and has red on it. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "a detailed plane is sitting in an area. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 94,
+            "value": "There are some other planes that look like it as well.",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 141,
+            "value": "The plane is mostly yellow and has red on it. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The train is pulling into the station. There is no one on the platform by the train. The front of the train is blue and gray. The conductor is driving the train.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "The train is pulling into the station. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 84,
+            "value": "There is no one on the platform by the train.",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 125,
+            "value": "The front of the train is blue and gray.",
+            "entity": "neutral"
+          },
+          {
+            "start": 126,
+            "end": 161,
+            "value": "The conductor is driving the train.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "Five off white sheep are standing on a rocky grassy hill. The stones are medium sized and are grey and white. Beyond the sheep is a bright blue body of water and a set of beautiful grass covered mountains and a blue sky.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "Five off white sheep are standing on a rocky grassy hill.",
+            "entity": "neutral"
+          },
+          {
+            "start": 58,
+            "end": 108,
+            "value": "The stones are medium sized and are grey and white",
+            "entity": "neutral"
+          },
+          {
+            "start": 110,
+            "end": 220,
+            "value": "Beyond the sheep is a bright blue body of water and a set of beautiful grass covered mountains and a blue sky.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Some empty wine glasses are sitting on the table. A woman is seen very near to the table and she has a white shirt on. There is a menu located in front of the wine glass. Some flowers are in the window and the sun is shining very bright.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "Some empty wine glasses are sitting on the table.",
+            "entity": "neutral"
+          },
+          {
+            "start": 50,
+            "end": 118,
+            "value": "A woman is seen very near to the table and she has a white shirt on.",
+            "entity": "neutral"
+          },
+          {
+            "start": 119,
+            "end": 169,
+            "value": "There is a menu located in front of the wine glass",
+            "entity": "neutral"
+          },
+          {
+            "start": 171,
+            "end": 237,
+            "value": "Some flowers are in the window and the sun is shining very bright.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "An older woman is playing tennis on a court. She has pulled back, bleach blond hair and is wearing white pants and a grey sweatshirt. Her arm is up in the air, holding the racket to hit the bright yellow ball. Behind her is a chain link fence with a green cover, covering half of it.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "An older woman is playing tennis on a court. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 133,
+            "value": "She has pulled back, bleach blond hair and is wearing white pants and a grey sweatshirt.",
+            "entity": "neutral"
+          },
+          {
+            "start": 134,
+            "end": 209,
+            "value": "Her arm is up in the air, holding the racket to hit the bright yellow ball.",
+            "entity": "neutral"
+          },
+          {
+            "start": 210,
+            "end": 283,
+            "value": "Behind her is a chain link fence with a green cover, covering half of it.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Three people are looking at someone prepare their cakes. There are two men and a woman waiting. The employee is a lady. There are three big cakes on a structure in the background",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "Three people are looking at someone prepare their cakes. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 57,
+            "end": 95,
+            "value": "There are two men and a woman waiting.",
+            "entity": "neutral"
+          },
+          {
+            "start": 96,
+            "end": 120,
+            "value": "The employee is a lady. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 120,
+            "end": 178,
+            "value": "There are three big cakes on a structure in the background",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "there is a big yellow sign. the sign is a warning sign. the sign is shaped like a diamond. there is a light above the sign.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "there is a big yellow sign. ",
+            "entity": "positive"
+          },
+          {
+            "start": 28,
+            "end": 54,
+            "value": "the sign is a warning sign",
+            "entity": "positive"
+          },
+          {
+            "start": 56,
+            "end": 90,
+            "value": "the sign is shaped like a diamond.",
+            "entity": "neutral"
+          },
+          {
+            "start": 91,
+            "end": 123,
+            "value": "there is a light above the sign.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Traffic lights hang over a road.  The sky overhead is a bright blue.  A few cars pass on the road.  Businesses line the road on the left and right.  The traffic lights on the right appear to be swaying in the wind.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "Traffic lights hang over a road. ",
+            "entity": "positive"
+          },
+          {
+            "start": 34,
+            "end": 69,
+            "value": "The sky overhead is a bright blue. ",
+            "entity": "positive"
+          },
+          {
+            "start": 68,
+            "end": 98,
+            "value": "  A few cars pass on the road.",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 149,
+            "value": "Businesses line the road on the left and right.  ",
+            "entity": "neutral"
+          },
+          {
+            "start": 148,
+            "end": 214,
+            "value": " The traffic lights on the right appear to be swaying in the wind.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A yellow and red train is on the tracks. There is a green train on the tracks next to it. There are several beams and wires above the trains.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A yellow and red train is on the tracks",
+            "entity": "positive"
+          },
+          {
+            "start": 41,
+            "end": 89,
+            "value": "There is a green train on the tracks next to it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 90,
+            "end": 141,
+            "value": "There are several beams and wires above the trains.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A black pole has many signs attached to it. There is a black and white sign at the top of the pole. There is a tall brown building behind the pole next to a large glass building.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "A black pole has many signs attached to it.",
+            "entity": "positive"
+          },
+          {
+            "start": 44,
+            "end": 99,
+            "value": "There is a black and white sign at the top of the pole.",
+            "entity": "positive"
+          },
+          {
+            "start": 100,
+            "end": 178,
+            "value": "There is a tall brown building behind the pole next to a large glass building.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are three people standing on a hill of snow. There are small white clouds in the sky. There is a person wearing a white jacket, purple ski pants and a purple helmet.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "There are three people standing on a hill of snow. ",
+            "entity": "negative"
+          },
+          {
+            "start": 51,
+            "end": 91,
+            "value": "There are small white clouds in the sky.",
+            "entity": "neutral"
+          },
+          {
+            "start": 92,
+            "end": 171,
+            "value": "There is a person wearing a white jacket, purple ski pants and a purple helmet.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A cat is sitting in the lid of an open suitcase. The cat is white and gray. There is a purple bag inside of the suit case.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 48,
+            "value": "A cat is sitting in the lid of an open suitcase.",
+            "entity": "neutral"
+          },
+          {
+            "start": 49,
+            "end": 75,
+            "value": "The cat is white and gray.",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 122,
+            "value": "There is a purple bag inside of the suit case.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a sign is yellow in color. the sign has pictures on it. the hydrant is red in color. the sky is grey in color. there aren't any leaves on the tree.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "a sign is yellow in color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 56,
+            "value": "the sign has pictures on it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 56,
+            "end": 84,
+            "value": "the hydrant is red in color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 110,
+            "value": "the sky is grey in color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 111,
+            "end": 147,
+            "value": "there aren't any leaves on the tree.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Person patting the dog who is lying on top of a blanket. The blanket is a pattern of brown and white. The dog has sad eyes and is looking at the camera. There is a orange collar around the dog's neck.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "Person patting the dog who is lying on top of a blanket. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 57,
+            "end": 101,
+            "value": "The blanket is a pattern of brown and white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 102,
+            "end": 153,
+            "value": "The dog has sad eyes and is looking at the camera. ",
+            "entity": "negative"
+          },
+          {
+            "start": 153,
+            "end": 200,
+            "value": "There is a orange collar around the dog's neck.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A wooden bench is in front of a rock building. There is a window on the building. Behind the bench is red leaves. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "A wooden bench is in front of a rock building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 47,
+            "end": 81,
+            "value": "There is a window on the building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 81,
+            "end": 114,
+            "value": " Behind the bench is red leaves. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A black counter has a silver fan on it. There is a bar stool in front of the counter. There are lights hanging from the ceiling above the counter. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A black counter has a silver fan on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 84,
+            "value": "There is a bar stool in front of the counter",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 146,
+            "value": "There are lights hanging from the ceiling above the counter.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A woman in an orange shirt is swinging a black bat. There is a man in a white shirt throwing a ball at her. There is a large house on the beach behind them.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "A woman in an orange shirt is swinging a black bat.",
+            "entity": "neutral"
+          },
+          {
+            "start": 52,
+            "end": 107,
+            "value": "There is a man in a white shirt throwing a ball at her.",
+            "entity": "neutral"
+          },
+          {
+            "start": 108,
+            "end": 156,
+            "value": "There is a large house on the beach behind them.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The parked red train is siting in the sun parked at the station. The window in front is slanted and has one windshield wiper. The platform is grey with two white painted lines. There is a roof over the station with two rows of many windows.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 65,
+            "value": "The parked red train is siting in the sun parked at the station. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 65,
+            "end": 124,
+            "value": "The window in front is slanted and has one windshield wiper",
+            "entity": "neutral"
+          },
+          {
+            "start": 126,
+            "end": 176,
+            "value": "The platform is grey with two white painted lines.",
+            "entity": "neutral"
+          },
+          {
+            "start": 177,
+            "end": 240,
+            "value": "There is a roof over the station with two rows of many windows.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a lot of parking meters are in the street. the lines on the parking lot are yellow. there is a white trashcan in the distance.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "a lot of parking meters are in the street. ",
+            "entity": "positive"
+          },
+          {
+            "start": 43,
+            "end": 82,
+            "value": "the lines on the parking lot are yellow",
+            "entity": "positive"
+          },
+          {
+            "start": 83,
+            "end": 126,
+            "value": " there is a white trashcan in the distance.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man with a green vest is sitting on a yellow motorcycle. He is in the middle of a bunch of people that are walking around. One man in the background is looking towards the mans direction.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 58,
+            "value": "A man with a green vest is sitting on a yellow motorcycle.",
+            "entity": "neutral"
+          },
+          {
+            "start": 59,
+            "end": 125,
+            "value": "He is in the middle of a bunch of people that are walking around. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 189,
+            "value": "One man in the background is looking towards the mans direction.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is getting ready to serve a tennis ball. He has on a lime green shirt and black shorts. He has on lime green shoes. There are a bunch of people watching him.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "A man is getting ready to serve a tennis ball. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 47,
+            "end": 93,
+            "value": "He has on a lime green shirt and black shorts.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 121,
+            "value": "He has on lime green shoes.",
+            "entity": "neutral"
+          },
+          {
+            "start": 121,
+            "end": 163,
+            "value": " There are a bunch of people watching him.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A train is on a railroad track. The train is green and red and it's only a conductor. There are a couple of people observing the train from both sides.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "A train is on a railroad track.",
+            "entity": "positive"
+          },
+          {
+            "start": 32,
+            "end": 85,
+            "value": "The train is green and red and it's only a conductor.",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 151,
+            "value": "There are a couple of people observing the train from both sides.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "An image of a peeled large banana dominates the picture. Three men are walking down the street.  The man in the front is by himself while two other men are in close proximity.  Two buses are parked along the side of the street.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 56,
+            "value": "An image of a peeled large banana dominates the picture.",
+            "entity": "negative"
+          },
+          {
+            "start": 56,
+            "end": 95,
+            "value": " Three men are walking down the street.",
+            "entity": "neutral"
+          },
+          {
+            "start": 97,
+            "end": 175,
+            "value": "The man in the front is by himself while two other men are in close proximity.",
+            "entity": "neutral"
+          },
+          {
+            "start": 177,
+            "end": 227,
+            "value": "Two buses are parked along the side of the street.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The top of this tower has a golden chicken weather vane. The tower is a light green color and has a few windows on it. It also has a black clock with golden hands and golden roman numerals. The sky is a greyish blue color.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "The top of this tower has a golden chicken weather vane. ",
+            "entity": "positive"
+          },
+          {
+            "start": 56,
+            "end": 118,
+            "value": " The tower is a light green color and has a few windows on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 119,
+            "end": 189,
+            "value": "It also has a black clock with golden hands and golden roman numerals.",
+            "entity": "positive"
+          },
+          {
+            "start": 190,
+            "end": 222,
+            "value": "The sky is a greyish blue color.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "There is a gray elephant holding its trunk up. There is a man standing next to it wearing a white hat. The man is sticking its hand in the elephants mouth. ",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "There is a gray elephant holding its trunk up.",
+            "entity": "neutral"
+          },
+          {
+            "start": 47,
+            "end": 102,
+            "value": "There is a man standing next to it wearing a white hat.",
+            "entity": "neutral"
+          },
+          {
+            "start": 103,
+            "end": 156,
+            "value": "The man is sticking its hand in the elephants mouth. ",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A double decker bus is parked on the side of the street. The bus says The Original Sightseeing tour and is red. It is parked very close to a sidewalk that has a couple of huge urban buildings",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "A double decker bus is parked on the side of the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 57,
+            "end": 111,
+            "value": "The bus says The Original Sightseeing tour and is red.",
+            "entity": "neutral"
+          },
+          {
+            "start": 111,
+            "end": 191,
+            "value": " It is parked very close to a sidewalk that has a couple of huge urban buildings",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A large white cow is grazing in the grass. The cow is in a field with weeds and grass. There are trees behind the cow. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "A large white cow is grazing in the grass. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 86,
+            "value": "The cow is in a field with weeds and grass.",
+            "entity": "neutral"
+          },
+          {
+            "start": 87,
+            "end": 119,
+            "value": "There are trees behind the cow. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The window is white. Behind the window are two cats looking outside. One cat is orange and the other one is gray. There are white curtains and the window frame is white.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "The window is white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 21,
+            "end": 68,
+            "value": "Behind the window are two cats looking outside.",
+            "entity": "neutral"
+          },
+          {
+            "start": 69,
+            "end": 112,
+            "value": "One cat is orange and the other one is gray",
+            "entity": "neutral"
+          },
+          {
+            "start": 114,
+            "end": 168,
+            "value": "There are white curtains and the window frame is white",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Some fruits are all sitting in a tree. The fruits are a light orange color. There is a very small chunky bird sitting on a branch. The bird is brown, white, and has gold on it's neck.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "Some fruits are all sitting in a tree. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 76,
+            "value": "The fruits are a light orange color. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 130,
+            "value": "There is a very small chunky bird sitting on a branch.",
+            "entity": "neutral"
+          },
+          {
+            "start": 131,
+            "end": 183,
+            "value": "The bird is brown, white, and has gold on it's neck.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A blue train with yellow trim is at a train station in a very green valley. The train has its lights on and is pulling several cars behind it. Two men in uniform stand on a platform observing the train's movement.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 76,
+            "value": "A blue train with yellow trim is at a train station in a very green valley. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 142,
+            "value": "The train has its lights on and is pulling several cars behind it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 143,
+            "end": 213,
+            "value": "Two men in uniform stand on a platform observing the train's movement.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a bed in a room. It has red and white blankets on top of it. There is a wooden headboard on the bed. There is a television hanging on the wall in front of the bed.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "There is a bed in a room. ",
+            "entity": "positive"
+          },
+          {
+            "start": 26,
+            "end": 69,
+            "value": "It has red and white blankets on top of it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 70,
+            "end": 109,
+            "value": "There is a wooden headboard on the bed.",
+            "entity": "neutral"
+          },
+          {
+            "start": 110,
+            "end": 172,
+            "value": "There is a television hanging on the wall in front of the bed.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a plate on top of a green mat. There is a white spatula next to the plate. There is a brown cake on top of a plate. The cake has white frosting on top of it.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "There is a plate on top of a green mat.",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 82,
+            "value": "There is a white spatula next to the plate",
+            "entity": "neutral"
+          },
+          {
+            "start": 84,
+            "end": 123,
+            "value": "There is a brown cake on top of a plate",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 166,
+            "value": "The cake has white frosting on top of it.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "On top of a green, yellow and blue designed plate is a piece of bread with peanut butter spread on it. On top of that piece of bread are thickly cut slices of fresh banana. The plate is on a grey granite countertop.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 101,
+            "value": "On top of a green, yellow and blue designed plate is a piece of bread with peanut butter spread on it",
+            "entity": "neutral"
+          },
+          {
+            "start": 103,
+            "end": 172,
+            "value": "On top of that piece of bread are thickly cut slices of fresh banana.",
+            "entity": "neutral"
+          },
+          {
+            "start": 173,
+            "end": 215,
+            "value": "The plate is on a grey granite countertop.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man in a white jacket is standing in the snow. He is holding two ski poles. There are trees behind the man. The man is wearing red gloves on his hands. ",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "A man in a white jacket is standing in the snow",
+            "entity": "negative"
+          },
+          {
+            "start": 49,
+            "end": 76,
+            "value": "He is holding two ski poles",
+            "entity": "positive"
+          },
+          {
+            "start": 78,
+            "end": 110,
+            "value": "There are trees behind the man. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 109,
+            "end": 153,
+            "value": " The man is wearing red gloves on his hands.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There is a large gray and red building. There is a large clock on the building. There are cars parked in front of the building.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "There is a large gray and red building. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 78,
+            "value": "There is a large clock on the building",
+            "entity": "neutral"
+          },
+          {
+            "start": 80,
+            "end": 127,
+            "value": "There are cars parked in front of the building.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a woman is swinging her tennis racket. her face looks very happy. her shirt is white in color. she is wearing a green sport skirt",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "a woman is swinging her tennis racket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 65,
+            "value": "her face looks very happy.",
+            "entity": "neutral"
+          },
+          {
+            "start": 66,
+            "end": 95,
+            "value": "her shirt is white in color. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 129,
+            "value": " she is wearing a green sport skirt",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a group of people are ordering some food. the people are all dressed well. the sign on the side is yellow. the sign has pictures on it.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "a group of people are ordering some food. ",
+            "entity": "positive"
+          },
+          {
+            "start": 42,
+            "end": 74,
+            "value": "the people are all dressed well.",
+            "entity": "positive"
+          },
+          {
+            "start": 75,
+            "end": 106,
+            "value": "the sign on the side is yellow.",
+            "entity": "neutral"
+          },
+          {
+            "start": 106,
+            "end": 135,
+            "value": " the sign has pictures on it.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A train that is yellow is in front and there is a white and blue train behind it. There are people standing next to the yellow train on the platform. A man is wearing all black and is pulling a suitcase.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 81,
+            "value": "A train that is yellow is in front and there is a white and blue train behind it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 82,
+            "end": 149,
+            "value": "There are people standing next to the yellow train on the platform.",
+            "entity": "neutral"
+          },
+          {
+            "start": 150,
+            "end": 203,
+            "value": "A man is wearing all black and is pulling a suitcase.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Two planes are taking off. One plane is very red. There is a patch of grass next to the planes. The roads are grey. the sun is not shining.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "Two planes are taking off.",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 50,
+            "value": "One plane is very red. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 50,
+            "end": 95,
+            "value": "There is a patch of grass next to the planes.",
+            "entity": "neutral"
+          },
+          {
+            "start": 96,
+            "end": 116,
+            "value": "The roads are grey. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 116,
+            "end": 139,
+            "value": "the sun is not shining.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A yellow and blue airplane with a lot of smoke coming out from behind the plane.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 80,
+            "value": "A yellow and blue airplane with a lot of smoke coming out from behind the plane.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A man is snowboarding down a hill. Their are several evergreen trees in the background. His skis are green and black, while his jacket is red. Their are mountains in the background. Another skier in the background can be seen.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "A man is snowboarding down a hill.",
+            "entity": "negative"
+          },
+          {
+            "start": 35,
+            "end": 87,
+            "value": "Their are several evergreen trees in the background.",
+            "entity": "neutral"
+          },
+          {
+            "start": 88,
+            "end": 141,
+            "value": "His skis are green and black, while his jacket is red",
+            "entity": "neutral"
+          },
+          {
+            "start": 143,
+            "end": 181,
+            "value": "Their are mountains in the background.",
+            "entity": "neutral"
+          },
+          {
+            "start": 182,
+            "end": 226,
+            "value": "Another skier in the background can be seen.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A black plate sits on a table. There is a slice of cake on the plate. There is a white plastic knife on top of the plate. There is colorful frosting on top of the cake. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "A black plate sits on a table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 31,
+            "end": 68,
+            "value": "There is a slice of cake on the plate",
+            "entity": "positive"
+          },
+          {
+            "start": 70,
+            "end": 122,
+            "value": "There is a white plastic knife on top of the plate. ",
+            "entity": "negative"
+          },
+          {
+            "start": 122,
+            "end": 169,
+            "value": "There is colorful frosting on top of the cake. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A bike is sitting outside. IT has a bunch of a wooden accenting on it. The chain is a little rusty. It appears to be sitting in a forested area.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "A bike is sitting outside.",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 69,
+            "value": "IT has a bunch of a wooden accenting on it",
+            "entity": "neutral"
+          },
+          {
+            "start": 70,
+            "end": 99,
+            "value": " The chain is a little rusty.",
+            "entity": "negative"
+          },
+          {
+            "start": 100,
+            "end": 144,
+            "value": "It appears to be sitting in a forested area.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A white and orange plane is taking off. There is orange writing on the side of the plane. There are buildings and trees on the ground below the plane. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "A white and orange plane is taking off. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 90,
+            "value": "There is orange writing on the side of the plane. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 90,
+            "end": 151,
+            "value": "There are buildings and trees on the ground below the plane. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A picture in the day time of 4 zebras. There appears to be three full grown zebras and a baby zebra standing. There is dirt n the ground and a small rock with water on it for the zebras to drink.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A picture in the day time of 4 zebras. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 110,
+            "value": "There appears to be three full grown zebras and a baby zebra standing. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 110,
+            "end": 195,
+            "value": "There is dirt n the ground and a small rock with water on it for the zebras to drink.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Two young boys are enjoying themselves outside. They are both holding baseball gloves. They are both smiling. One has on a red and white short sleeve Henley. The other boy has a gray shirt on.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "Two young boys are enjoying themselves outside",
+            "entity": "positive"
+          },
+          {
+            "start": 48,
+            "end": 86,
+            "value": "They are both holding baseball gloves.",
+            "entity": "neutral"
+          },
+          {
+            "start": 87,
+            "end": 109,
+            "value": "They are both smiling.",
+            "entity": "positive"
+          },
+          {
+            "start": 109,
+            "end": 158,
+            "value": " One has on a red and white short sleeve Henley. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 158,
+            "end": 192,
+            "value": "The other boy has a gray shirt on.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A person is holding a pair of scissors.  The scissors have black handles.  The person is blonde.  There is red and white fabric behind the woman.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A person is holding a pair of scissors.",
+            "entity": "negative"
+          },
+          {
+            "start": 41,
+            "end": 74,
+            "value": "The scissors have black handles. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 75,
+            "end": 96,
+            "value": "The person is blonde.",
+            "entity": "neutral"
+          },
+          {
+            "start": 98,
+            "end": 145,
+            "value": "There is red and white fabric behind the woman.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are fruit on the table. One of the fruit is an orange. The other two fruits are bananas and apples. The tablecloth is royal blue. The fruits are very vibrant in color.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "There are fruit on the table.",
+            "entity": "neutral"
+          },
+          {
+            "start": 30,
+            "end": 60,
+            "value": "One of the fruit is an orange.",
+            "entity": "neutral"
+          },
+          {
+            "start": 61,
+            "end": 105,
+            "value": "The other two fruits are bananas and apples.",
+            "entity": "neutral"
+          },
+          {
+            "start": 106,
+            "end": 135,
+            "value": "The tablecloth is royal blue.",
+            "entity": "neutral"
+          },
+          {
+            "start": 135,
+            "end": 173,
+            "value": " The fruits are very vibrant in color.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a large building with many windows on the corner of the street. There is a busy sidewalk with many people walking up and down it. The sky is cloudy and gray. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 73,
+            "value": "There is a large building with many windows on the corner of the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 73,
+            "end": 137,
+            "value": "There is a busy sidewalk with many people walking up and down it",
+            "entity": "neutral"
+          },
+          {
+            "start": 139,
+            "end": 167,
+            "value": "The sky is cloudy and gray. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a baseball player in a white uniform. They are wearing a blue hat and has a black baseball glove on. The person is pitching a baseball.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "There is a baseball player in a white uniform. ",
+            "entity": "positive"
+          },
+          {
+            "start": 47,
+            "end": 108,
+            "value": "They are wearing a blue hat and has a black baseball glove on",
+            "entity": "positive"
+          },
+          {
+            "start": 110,
+            "end": 144,
+            "value": "The person is pitching a baseball.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man wearing a black shirt and a green hat is standing behind a table with a green table cloth on it. A man in a black shirt is sitting in a chair in front of the table",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 102,
+            "value": "A man wearing a black shirt and a green hat is standing behind a table with a green table cloth on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 103,
+            "end": 169,
+            "value": "A man in a black shirt is sitting in a chair in front of the table",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A green locomotive with a green train car behind it.  The locomotive is blowing white steam from it's chimney.  To the left of the train tracks is lush green grass and tree's on either side of the tracks.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "A green locomotive with a green train car behind it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 54,
+            "end": 110,
+            "value": "The locomotive is blowing white steam from it's chimney.",
+            "entity": "neutral"
+          },
+          {
+            "start": 112,
+            "end": 204,
+            "value": "To the left of the train tracks is lush green grass and tree's on either side of the tracks.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a white building with a pink door and pink windows on it. There is a white toilet in front of the building. There are yellow poles on the building. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 66,
+            "value": "There is a white building with a pink door and pink windows on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 67,
+            "end": 115,
+            "value": "There is a white toilet in front of the building",
+            "entity": "neutral"
+          },
+          {
+            "start": 117,
+            "end": 157,
+            "value": "There are yellow poles on the building. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are several people standing on sand. There is a woman with blue pants and a red cap on. There is another woman in front of her wearing a black skirt. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "There are several people standing on sand. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 93,
+            "value": "There is a woman with blue pants and a red cap on.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 156,
+            "value": "There is another woman in front of her wearing a black skirt. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are two striped zebras standing on the dirt. There is a log behind them on the ground. There is a tree trunk on the ground behind them.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 50,
+            "value": "There are two striped zebras standing on the dirt.",
+            "entity": "positive"
+          },
+          {
+            "start": 51,
+            "end": 91,
+            "value": "There is a log behind them on the ground",
+            "entity": "neutral"
+          },
+          {
+            "start": 93,
+            "end": 141,
+            "value": "There is a tree trunk on the ground behind them.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a cat in the shelf. Under the shelf are two small silver barbels. On the shelf are also DVD players and radio. Beside the shelf is a big bottle of white in a wooden case.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 73,
+            "value": "There is a cat in the shelf. Under the shelf are two small silver barbels",
+            "entity": "neutral"
+          },
+          {
+            "start": 75,
+            "end": 119,
+            "value": "On the shelf are also DVD players and radio.",
+            "entity": "neutral"
+          },
+          {
+            "start": 120,
+            "end": 179,
+            "value": "Beside the shelf is a big bottle of white in a wooden case.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A little girl in a black skirt and a red tie is standing in front of a door. The door is green and has a black number on it. The girl is wearing a black jacket. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 77,
+            "value": "A little girl in a black skirt and a red tie is standing in front of a door. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 77,
+            "end": 124,
+            "value": "The door is green and has a black number on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 161,
+            "value": "The girl is wearing a black jacket. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A bunch of planes are in formation in the air. One plane is way farther away from the rest. The sky is a pretty blue color and a couple of clouds are seen.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "A bunch of planes are in formation in the air. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 47,
+            "end": 91,
+            "value": "One plane is way farther away from the rest.",
+            "entity": "neutral"
+          },
+          {
+            "start": 92,
+            "end": 155,
+            "value": "The sky is a pretty blue color and a couple of clouds are seen.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "This is a black and white picture. A man is teaching his son to ski. He holds him in front of him, and leads him forward. The sun is shining on the snow. The snow itself very flat",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "This is a black and white picture.",
+            "entity": "neutral"
+          },
+          {
+            "start": 35,
+            "end": 67,
+            "value": "A man is teaching his son to ski",
+            "entity": "positive"
+          },
+          {
+            "start": 69,
+            "end": 121,
+            "value": "He holds him in front of him, and leads him forward.",
+            "entity": "positive"
+          },
+          {
+            "start": 122,
+            "end": 153,
+            "value": "The sun is shining on the snow.",
+            "entity": "positive"
+          },
+          {
+            "start": 154,
+            "end": 179,
+            "value": "The snow itself very flat",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A man in a blue shirt is standing next to a man in a red shirt. They are holding white wii remotes. They are in front of a couch. There is a map hanging on the wall above the couch. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 63,
+            "value": "A man in a blue shirt is standing next to a man in a red shirt.",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 99,
+            "value": "They are holding white wii remotes.",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 129,
+            "value": "They are in front of a couch.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A girl is looking at the camera. She is located near a black bench. She has a blue bag in her hand and is wearing a black coat. She has a small pink bow in her head",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "A girl is looking at the camera. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 33,
+            "end": 67,
+            "value": "She is located near a black bench.",
+            "entity": "neutral"
+          },
+          {
+            "start": 68,
+            "end": 128,
+            "value": "She has a blue bag in her hand and is wearing a black coat. ",
+            "entity": "positive"
+          },
+          {
+            "start": 128,
+            "end": 164,
+            "value": "She has a small pink bow in her head",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "This is a picture of some people playing baseball. There is a boy wearing a baseball uniform swinging a baseball bat at a ball. The pitcher has just thrown the ball and a boy is standing in outfield. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 50,
+            "value": "This is a picture of some people playing baseball.",
+            "entity": "neutral"
+          },
+          {
+            "start": 51,
+            "end": 128,
+            "value": "There is a boy wearing a baseball uniform swinging a baseball bat at a ball. ",
+            "entity": "positive"
+          },
+          {
+            "start": 128,
+            "end": 199,
+            "value": "The pitcher has just thrown the ball and a boy is standing in outfield.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a yellow train on the tracks. There is also a shadow on the platform. There is open space above the roof. THere is a window on the back of the train. There is a small yellow door as well.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "There is a yellow train on the tracks.",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 78,
+            "value": "There is also a shadow on the platform.",
+            "entity": "neutral"
+          },
+          {
+            "start": 79,
+            "end": 114,
+            "value": "There is open space above the roof.",
+            "entity": "positive"
+          },
+          {
+            "start": 115,
+            "end": 159,
+            "value": "THere is a window on the back of the train. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 159,
+            "end": 196,
+            "value": "There is a small yellow door as well.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A group of young people is gathered around a wide computer monitor.  All but one person is male.  A man is using a keyboard to play a video game.  The lighting is subdued in order to let the game play. The game has a shooting scene.  ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 67,
+            "value": "A group of young people is gathered around a wide computer monitor.",
+            "entity": "neutral"
+          },
+          {
+            "start": 69,
+            "end": 97,
+            "value": "All but one person is male. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 97,
+            "end": 146,
+            "value": " A man is using a keyboard to play a video game. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 147,
+            "end": 202,
+            "value": "The lighting is subdued in order to let the game play. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 202,
+            "end": 234,
+            "value": "The game has a shooting scene.  ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A person with a black shirt on is jumping on a skateboard. There is a boy in a red jacket standing in front of him. There is a black fence behind the people. ",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 59,
+            "value": "A person with a black shirt on is jumping on a skateboard. ",
+            "entity": "negative"
+          },
+          {
+            "start": 59,
+            "end": 116,
+            "value": "There is a boy in a red jacket standing in front of him. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 116,
+            "end": 157,
+            "value": "There is a black fence behind the people.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There are many boats in the water. There are small waves in the water around the boats. There is a bird flying in the air above the water. There is a hill on the other side of the water. ",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "There are many boats in the water.",
+            "entity": "neutral"
+          },
+          {
+            "start": 35,
+            "end": 87,
+            "value": "There are small waves in the water around the boats.",
+            "entity": "negative"
+          },
+          {
+            "start": 88,
+            "end": 139,
+            "value": "There is a bird flying in the air above the water. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 139,
+            "end": 186,
+            "value": "There is a hill on the other side of the water.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A stoplight is showing three red lights. One of the lights has two red lights on it. There is a railroad stopping arm in the air. There are some trees seen as well.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A stoplight is showing three red lights",
+            "entity": "neutral"
+          },
+          {
+            "start": 41,
+            "end": 84,
+            "value": "One of the lights has two red lights on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 129,
+            "value": "There is a railroad stopping arm in the air.",
+            "entity": "positive"
+          },
+          {
+            "start": 129,
+            "end": 164,
+            "value": " There are some trees seen as well.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are many people trecking in the snow. They are using sticks to guide their way. They are all wearing hats. It is snowing very hard.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "There are many people trecking in the snow.",
+            "entity": "negative"
+          },
+          {
+            "start": 44,
+            "end": 86,
+            "value": "They are using sticks to guide their way. ",
+            "entity": "positive"
+          },
+          {
+            "start": 86,
+            "end": 112,
+            "value": "They are all wearing hats.",
+            "entity": "positive"
+          },
+          {
+            "start": 113,
+            "end": 137,
+            "value": "It is snowing very hard.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A white plate is sitting on a wooden table. On the plate is two sandwiches. next to the sandwiches are a tomato and a piece of lettuce. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "A white plate is sitting on a wooden table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 44,
+            "end": 75,
+            "value": "On the plate is two sandwiches.",
+            "entity": "positive"
+          },
+          {
+            "start": 76,
+            "end": 136,
+            "value": "next to the sandwiches are a tomato and a piece of lettuce. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A man in a white tennis outfit is swinging a red tennis racket. He is hitting a green tennis ball. His shoes are red and he is wearing a white hat. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 63,
+            "value": "A man in a white tennis outfit is swinging a red tennis racket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 99,
+            "value": "He is hitting a green tennis ball. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 99,
+            "end": 147,
+            "value": "His shoes are red and he is wearing a white hat.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A very elegant hotel room. The bedding is very neat and fitted and white and the walls are a dark brown color. The lighting is very dim and there is a painting on the wall over the bed.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "A very elegant hotel room. ",
+            "entity": "positive"
+          },
+          {
+            "start": 27,
+            "end": 110,
+            "value": "The bedding is very neat and fitted and white and the walls are a dark brown color.",
+            "entity": "positive"
+          },
+          {
+            "start": 111,
+            "end": 185,
+            "value": "The lighting is very dim and there is a painting on the wall over the bed.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a small yellow and black striped airplane on the runway. There are many trees in a row behind the airplane. There is a flag on a pole in front of the trees. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 66,
+            "value": "There is a small yellow and black striped airplane on the runway. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 66,
+            "end": 117,
+            "value": "There are many trees in a row behind the airplane. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 117,
+            "end": 166,
+            "value": "There is a flag on a pole in front of the trees. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A bus is on the street. It is currently getting ready to pick some people up and drop some off. The bus is white, purple, and red on the top. The building has a lot of moss on it.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "A bus is on the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 24,
+            "end": 95,
+            "value": "It is currently getting ready to pick some people up and drop some off.",
+            "entity": "neutral"
+          },
+          {
+            "start": 96,
+            "end": 142,
+            "value": "The bus is white, purple, and red on the top. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 142,
+            "end": 179,
+            "value": "The building has a lot of moss on it.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A man is talking on the phone. He has on a white tee shirt. He has a bucket in his hand. He has on some very dark jeans.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "A man is talking on the phone.",
+            "entity": "neutral"
+          },
+          {
+            "start": 31,
+            "end": 59,
+            "value": "He has on a white tee shirt.",
+            "entity": "neutral"
+          },
+          {
+            "start": 59,
+            "end": 88,
+            "value": " He has a bucket in his hand.",
+            "entity": "neutral"
+          },
+          {
+            "start": 88,
+            "end": 120,
+            "value": " He has on some very dark jeans.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A cat is laying in a backpack. The backpack is blue and has golden straps on it. The backpack is hanging from a wooden door",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "A cat is laying in a backpack.",
+            "entity": "negative"
+          },
+          {
+            "start": 31,
+            "end": 80,
+            "value": "The backpack is blue and has golden straps on it.",
+            "entity": "positive"
+          },
+          {
+            "start": 81,
+            "end": 123,
+            "value": "The backpack is hanging from a wooden door",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A young boy is walking with a horse. The young boy has on a black sweater with a blue shirt tied around his waist. The horse is a dark brown color and looks very friendly.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "A young boy is walking with a horse. ",
+            "entity": "negative"
+          },
+          {
+            "start": 37,
+            "end": 114,
+            "value": "The young boy has on a black sweater with a blue shirt tied around his waist.",
+            "entity": "positive"
+          },
+          {
+            "start": 114,
+            "end": 171,
+            "value": " The horse is a dark brown color and looks very friendly.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A white fridge is in a room next to a yellow counter top. There is a roll of paper towels above the counter. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 58,
+            "value": "A white fridge is in a room next to a yellow counter top. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 58,
+            "end": 109,
+            "value": "There is a roll of paper towels above the counter. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white vase is sitting in the left corner of the stand There are three christmas trees on a stand to the right. The stand is a shiny mahogany wood grain. There are a few other figures on the stand as well.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 56,
+            "value": "A white vase is sitting in the left corner of the stand ",
+            "entity": "neutral"
+          },
+          {
+            "start": 56,
+            "end": 111,
+            "value": "There are three christmas trees on a stand to the right",
+            "entity": "neutral"
+          },
+          {
+            "start": 113,
+            "end": 153,
+            "value": "The stand is a shiny mahogany wood grain",
+            "entity": "neutral"
+          },
+          {
+            "start": 155,
+            "end": 206,
+            "value": "There are a few other figures on the stand as well.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "the car is black in color. it has four doors on it. there is a red building in the background. it is made out of brick. the wall of the building is curved.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "the car is black in color. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 51,
+            "value": "it has four doors on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 52,
+            "end": 94,
+            "value": "there is a red building in the background.",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 119,
+            "value": "it is made out of brick.",
+            "entity": "neutral"
+          },
+          {
+            "start": 120,
+            "end": 155,
+            "value": "the wall of the building is curved.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": " The men are playing soccer on a field of grass. One of the men is about to kick the ball. There are about six men on the field. There are two teams playing.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 49,
+            "end": 91,
+            "value": "One of the men is about to kick the ball. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 1,
+            "end": 48,
+            "value": "The men are playing soccer on a field of grass.",
+            "entity": "neutral"
+          },
+          {
+            "start": 91,
+            "end": 129,
+            "value": "There are about six men on the field. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 129,
+            "end": 157,
+            "value": "There are two teams playing.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A sandwich is displayed on a plate. It appears to be a brat sandwich that has peppers and pickles on it. The bun is very dark brown and there are some other foods in containers near the plate.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "A sandwich is displayed on a plate. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 36,
+            "end": 104,
+            "value": "It appears to be a brat sandwich that has peppers and pickles on it.",
+            "entity": "positive"
+          },
+          {
+            "start": 105,
+            "end": 192,
+            "value": "The bun is very dark brown and there are some other foods in containers near the plate.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A cat is laying on the top of a laptop. The cat is brown and black and has tiger like stripes. The cat is staring into the computer screen.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "A cat is laying on the top of a laptop.",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 94,
+            "value": " The cat is brown and black and has tiger like stripes.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 139,
+            "value": " The cat is staring into the computer screen.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Several people are skiing down a hill. One of the men has yellow sunglasses on. There are tall skinny trees behind them. ",
+        "intent": "medium risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "Several people are skiing down a hill. ",
+            "entity": "negative"
+          },
+          {
+            "start": 39,
+            "end": 78,
+            "value": "One of the men has yellow sunglasses on",
+            "entity": "negative"
+          },
+          {
+            "start": 80,
+            "end": 121,
+            "value": "There are tall skinny trees behind them. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A giraffe is encaged in a zoo area. The giraffe is a little bit dirty in appearance. The giraffe is eating from a little feeding area that is attached on the wall.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "A giraffe is encaged in a zoo area.",
+            "entity": "positive"
+          },
+          {
+            "start": 35,
+            "end": 83,
+            "value": " The giraffe is a little bit dirty in appearance",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 163,
+            "value": "The giraffe is eating from a little feeding area that is attached on the wall.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A hot dog is sitting on a foil wrapper. The wrapper is on top of a metal counter. There is a container that says onions on it hanging above the hot dog.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 40,
+            "value": "A hot dog is sitting on a foil wrapper. ",
+            "entity": "neutral "
+          },
+          {
+            "start": 40,
+            "end": 82,
+            "value": "The wrapper is on top of a metal counter. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 82,
+            "end": 152,
+            "value": "There is a container that says onions on it hanging above the hot dog.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A bird is in front of a green background. The bird is blue and has a black head. The bird has a gray long beak.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "A bird is in front of a green background. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 42,
+            "end": 80,
+            "value": "The bird is blue and has a black head.",
+            "entity": "neutral"
+          },
+          {
+            "start": 81,
+            "end": 111,
+            "value": "The bird has a gray long beak.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A woman in an orange shirt is holding a tennis racket. She is standing on a blue tennis court. There is a green and white tennis racket in the womans hand. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 54,
+            "value": "A woman in an orange shirt is holding a tennis racket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 55,
+            "end": 94,
+            "value": "She is standing on a blue tennis court.",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 156,
+            "value": "There is a green and white tennis racket in the womans hand. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a bed is made perfectly. the headboards are made out of pine. the blankets are tucked into the corners. the pillows are fluffed and white. there is a lamp in the corner.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "a bed is made perfectly.",
+            "entity": "positive"
+          },
+          {
+            "start": 25,
+            "end": 103,
+            "value": "the headboards are made out of pine. the blankets are tucked into the corners.",
+            "entity": "neutral"
+          },
+          {
+            "start": 104,
+            "end": 138,
+            "value": "the pillows are fluffed and white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 139,
+            "end": 169,
+            "value": "there is a lamp in the corner.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A man is cutting a piece of paper with red scissors. The man is wearing a gray hat and has glasses on. He is wearing a black jacket. There is a white table in front of the man. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "A man is cutting a piece of paper with red scissors. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 53,
+            "end": 101,
+            "value": "The man is wearing a gray hat and has glasses on",
+            "entity": "neutral"
+          },
+          {
+            "start": 103,
+            "end": 132,
+            "value": "He is wearing a black jacket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 132,
+            "end": 177,
+            "value": " There is a white table in front of the man. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A person is wearing a green jacket and black pants. They have skis on their feet and are holding black ski poles. There is a row of trees behind them. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "A person is wearing a green jacket and black pants.",
+            "entity": "neutral"
+          },
+          {
+            "start": 52,
+            "end": 113,
+            "value": "They have skis on their feet and are holding black ski poles.",
+            "entity": "positive"
+          },
+          {
+            "start": 114,
+            "end": 151,
+            "value": "There is a row of trees behind them. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a white toilet on the ground. There is a tree next to the toilet. There is a woman standing in front of the toilet with her hand on the seat of the toilet. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "There is a white toilet on the ground. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 73,
+            "value": "There is a tree next to the toilet",
+            "entity": "neutral"
+          },
+          {
+            "start": 75,
+            "end": 165,
+            "value": "There is a woman standing in front of the toilet with her hand on the seat of the toilet. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A person is standing in skis on top of snow that has a lot of tracks in it. There are several light posts behind the person",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 74,
+            "value": "A person is standing in skis on top of snow that has a lot of tracks in it",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 123,
+            "value": "There are several light posts behind the person",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A blue plate with slices of oranges on it. There is a red bowl on top of the plate. There are blueberries inside of the bowl. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "A blue plate with slices of oranges on it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 82,
+            "value": "There is a red bowl on top of the plate",
+            "entity": "neutral"
+          },
+          {
+            "start": 84,
+            "end": 126,
+            "value": "There are blueberries inside of the bowl. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A large brown horse is walking in the sand. There is a man sitting on the horse wearing a brown jacket. He is wearing a brown cowboy hat on his head. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "A large brown horse is walking in the sand.",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 103,
+            "value": " There is a man sitting on the horse wearing a brown jacket.",
+            "entity": "neutral"
+          },
+          {
+            "start": 104,
+            "end": 149,
+            "value": "He is wearing a brown cowboy hat on his head.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A very clean bathroom is being shown. It appears to be under construction. Everything is clean except for the wall that looks like it is being remodeled. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "A very clean bathroom is being shown",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 74,
+            "value": "It appears to be under construction.",
+            "entity": "neutral"
+          },
+          {
+            "start": 75,
+            "end": 154,
+            "value": "Everything is clean except for the wall that looks like it is being remodeled. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is holding up some gifts with a young boy besides him. Next to the two is a woman sitting at the table. The man is holding up something edible and smiling towards the camera.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 60,
+            "value": "A man is holding up some gifts with a young boy besides him.",
+            "entity": "neutral"
+          },
+          {
+            "start": 61,
+            "end": 110,
+            "value": "Next to the two is a woman sitting at the table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 110,
+            "end": 180,
+            "value": "The man is holding up something edible and smiling towards the camera.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A man is carrying a surfboard and walking in some very low water. He has on a black one piece swim suit. His board is white and has black on the boarders and a yellow, red, and green logo on it.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 64,
+            "value": "A man is carrying a surfboard and walking in some very low water",
+            "entity": "negative"
+          },
+          {
+            "start": 66,
+            "end": 105,
+            "value": "He has on a black one piece swim suit. ",
+            "entity": "positive"
+          },
+          {
+            "start": 105,
+            "end": 194,
+            "value": "His board is white and has black on the boarders and a yellow, red, and green logo on it.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There are tall houses lined along the street. There is a car at the end of the street. There is a large tree behind the car. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "There are tall houses lined along the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 46,
+            "end": 87,
+            "value": "There is a car at the end of the street. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 124,
+            "value": " There is a large tree behind the car.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A clear mason jar is sitting on top of a wooden table. It has a dark drink inside of it. It also has what appears to be slices of fruit inside of it as well. The jar is sealed with a metal lid. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "A clear mason jar is sitting on top of a wooden table",
+            "entity": "neutral"
+          },
+          {
+            "start": 54,
+            "end": 88,
+            "value": " It has a dark drink inside of it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 89,
+            "end": 157,
+            "value": "It also has what appears to be slices of fruit inside of it as well.",
+            "entity": "neutral"
+          },
+          {
+            "start": 158,
+            "end": 193,
+            "value": "The jar is sealed with a metal lid.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A unique style bathroom. The toilet is built into the ground and you don't have to sit down. All you have to do is squat. The walls have wallpaper on them. There is a small plunger nearby.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "A unique style bathroom.",
+            "entity": "neutral"
+          },
+          {
+            "start": 25,
+            "end": 92,
+            "value": "The toilet is built into the ground and you don't have to sit down.",
+            "entity": "neutral"
+          },
+          {
+            "start": 93,
+            "end": 120,
+            "value": "All you have to do is squat",
+            "entity": "neutral"
+          },
+          {
+            "start": 122,
+            "end": 156,
+            "value": "The walls have wallpaper on them. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 156,
+            "end": 188,
+            "value": "There is a small plunger nearby.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a woman is looking at a mountain. her shirt is bright blue. her hair is long and brown. she is sitting on a bench. the bench is made of wood.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "a woman is looking at a mountain.",
+            "entity": "neutral"
+          },
+          {
+            "start": 34,
+            "end": 60,
+            "value": "her shirt is bright blue. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 60,
+            "end": 86,
+            "value": "her hair is long and brown",
+            "entity": "neutral"
+          },
+          {
+            "start": 88,
+            "end": 115,
+            "value": "she is sitting on a bench. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 114,
+            "end": 141,
+            "value": " the bench is made of wood.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a teddy bear is on a rail. the bear is brown in color. there is a duck in front of the bear. the duck is black and white",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "a teddy bear is on a rail.",
+            "entity": "negative"
+          },
+          {
+            "start": 27,
+            "end": 53,
+            "value": "the bear is brown in color",
+            "entity": "neutral"
+          },
+          {
+            "start": 55,
+            "end": 93,
+            "value": "there is a duck in front of the bear. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 93,
+            "end": 120,
+            "value": "the duck is black and white",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a woman is playing tennis. her shit is white in color. her shorts are blue. her shorts are very short. her shoes are white",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "a woman is playing tennis. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 55,
+            "end": 75,
+            "value": "her shorts are blue.",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 102,
+            "value": "her shorts are very short.",
+            "entity": "neutral"
+          },
+          {
+            "start": 102,
+            "end": 122,
+            "value": " her shoes are white",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 55,
+            "value": "her shit is white in color. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a white plate on a blue table. There is a slice of pizza on the plate with a pepperoni on it. There is a red sauce on the plate next to the pizza. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "There is a white plate on a blue table.",
+            "entity": "neutral"
+          },
+          {
+            "start": 40,
+            "end": 102,
+            "value": "There is a slice of pizza on the plate with a pepperoni on it.",
+            "entity": "positive"
+          },
+          {
+            "start": 103,
+            "end": 156,
+            "value": "There is a red sauce on the plate next to the pizza. ",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "Scattered white unshaven sheep are all standing in a field with long green grass. The sheep have brown eyes and a brown nose. In the background beyond the field are trees, hills and a large mountain range.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 81,
+            "value": "Scattered white unshaven sheep are all standing in a field with long green grass.",
+            "entity": "neutral"
+          },
+          {
+            "start": 82,
+            "end": 125,
+            "value": "The sheep have brown eyes and a brown nose.",
+            "entity": "neutral"
+          },
+          {
+            "start": 126,
+            "end": 205,
+            "value": "In the background beyond the field are trees, hills and a large mountain range.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The cat is asleep. He is white and orange. His face is orange. His body is white. He is laying on a table. He has white hairs coming from his ears. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "The cat is asleep.",
+            "entity": "neutral"
+          },
+          {
+            "start": 19,
+            "end": 42,
+            "value": "He is white and orange.",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 62,
+            "value": "His face is orange.",
+            "entity": "neutral"
+          },
+          {
+            "start": 63,
+            "end": 81,
+            "value": "His body is white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 82,
+            "end": 106,
+            "value": "He is laying on a table.",
+            "entity": "neutral"
+          },
+          {
+            "start": 106,
+            "end": 148,
+            "value": " He has white hairs coming from his ears. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are several elephants standing on a field. There is tall grass and weeds all around them. There is a pond of water in front of them and large trees behind them.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "There are several elephants standing on a field. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 49,
+            "end": 95,
+            "value": "There is tall grass and weeds all around them.",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 166,
+            "value": " There is a pond of water in front of them and large trees behind them.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a small pink and white tea pot siting next to a small tea cup and plate. There is cookies and a large cupcake in front of the tea pot. They are sitting on top of a white cake.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 82,
+            "value": "There is a small pink and white tea pot siting next to a small tea cup and plate. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 81,
+            "end": 143,
+            "value": " There is cookies and a large cupcake in front of the tea pot.",
+            "entity": "positive"
+          },
+          {
+            "start": 144,
+            "end": 184,
+            "value": "They are sitting on top of a white cake.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A kite is very high in the sky. The kite is regular shaped and is red, blue, yellow and green. The sky is a very simple blue color and has a bunch of thin clouds.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "A kite is very high in the sky.",
+            "entity": "neutral"
+          },
+          {
+            "start": 32,
+            "end": 95,
+            "value": "The kite is regular shaped and is red, blue, yellow and green. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 95,
+            "end": 161,
+            "value": "The sky is a very simple blue color and has a bunch of thin clouds",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The water is calm. The sky is covered with big, fluffy clouds. In the distance is a lighthouse. By the dock is a wooden bench. The dock is small and made of wood.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "The water is calm. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 19,
+            "end": 61,
+            "value": "The sky is covered with big, fluffy clouds",
+            "entity": "neutral"
+          },
+          {
+            "start": 63,
+            "end": 95,
+            "value": "In the distance is a lighthouse.",
+            "entity": "positive"
+          },
+          {
+            "start": 95,
+            "end": 126,
+            "value": " By the dock is a wooden bench.",
+            "entity": "neutral"
+          },
+          {
+            "start": 126,
+            "end": 162,
+            "value": " The dock is small and made of wood.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "there are a lot of people on bikes. one guy is wearing a blue hat. there is a woman riding on a motorbike. there is also a van that is white in color. there is a tall building in the background.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "there are a lot of people on bikes",
+            "entity": "neutral"
+          },
+          {
+            "start": 36,
+            "end": 66,
+            "value": "one guy is wearing a blue hat.",
+            "entity": "positive"
+          },
+          {
+            "start": 67,
+            "end": 105,
+            "value": "there is a woman riding on a motorbike",
+            "entity": "neutral"
+          },
+          {
+            "start": 107,
+            "end": 150,
+            "value": "there is also a van that is white in color.",
+            "entity": "neutral"
+          },
+          {
+            "start": 151,
+            "end": 194,
+            "value": "there is a tall building in the background.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are seven people lined up for a photo. There is six females and one male. The male is wearing a gray suit. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "There are seven people lined up for a photo. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 79,
+            "value": "There is six females and one male.",
+            "entity": "neutral"
+          },
+          {
+            "start": 80,
+            "end": 112,
+            "value": "The male is wearing a gray suit.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is wearing a medieval costumes. He is holding three CDs with white, opaque, plastic case. The man's costume is black with brown sleeves. The buttons are gold. The man has beard and long hair.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "A man is wearing a medieval costumes",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 94,
+            "value": "He is holding three CDs with white, opaque, plastic case",
+            "entity": "neutral"
+          },
+          {
+            "start": 96,
+            "end": 142,
+            "value": "The man's costume is black with brown sleeves.",
+            "entity": "neutral"
+          },
+          {
+            "start": 143,
+            "end": 164,
+            "value": "The buttons are gold.",
+            "entity": "neutral"
+          },
+          {
+            "start": 165,
+            "end": 196,
+            "value": "The man has beard and long hair",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A green building has gold writing on the side of the building. There is a red light hanging in front of the building. There is a black sign attached to the side of the sign.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 62,
+            "value": "A green building has gold writing on the side of the building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 63,
+            "end": 117,
+            "value": "There is a red light hanging in front of the building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 118,
+            "end": 173,
+            "value": "There is a black sign attached to the side of the sign.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "The train is in motion with steam coming out of it. To the left of the train is a short fence. The Train's headlight is not on. The conductor is sitting in the conductor's chamber driving the train.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "The train is in motion with steam coming out of it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 52,
+            "end": 94,
+            "value": "To the left of the train is a short fence.",
+            "entity": "positive"
+          },
+          {
+            "start": 95,
+            "end": 127,
+            "value": "The Train's headlight is not on.",
+            "entity": "negative"
+          },
+          {
+            "start": 128,
+            "end": 198,
+            "value": "The conductor is sitting in the conductor's chamber driving the train.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "There are white boats in a canal of water. There is a large yellow building behind the boats. There is a brown roof of a building behind the boats",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "There are white boats in a canal of water.",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 93,
+            "value": "There is a large yellow building behind the boats.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 146,
+            "value": "There is a brown roof of a building behind the boats",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A cat is laying on the floor. There is a white rug under the cat. There is a book shelf behind the cat. The cat is gray with black stripes on it. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "A cat is laying on the floor.",
+            "entity": "neutral"
+          },
+          {
+            "start": 30,
+            "end": 65,
+            "value": "There is a white rug under the cat.",
+            "entity": "neutral"
+          },
+          {
+            "start": 66,
+            "end": 103,
+            "value": "There is a book shelf behind the cat.",
+            "entity": "neutral"
+          },
+          {
+            "start": 104,
+            "end": 146,
+            "value": "The cat is gray with black stripes on it. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A bunch of food is prepared on two plates. There are six sandwiches on one of the rectangular plates. On the other plate is an assortment of desserts. Everything is elegantly displayed.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "A bunch of food is prepared on two plates.",
+            "entity": "positive"
+          },
+          {
+            "start": 43,
+            "end": 100,
+            "value": "There are six sandwiches on one of the rectangular plates",
+            "entity": "positive"
+          },
+          {
+            "start": 102,
+            "end": 149,
+            "value": "On the other plate is an assortment of desserts",
+            "entity": "neutral"
+          },
+          {
+            "start": 151,
+            "end": 185,
+            "value": "Everything is elegantly displayed.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man stands on a boat with five passengers. The man standing on the boat is holding a stick. The boat is on a lake of green water. There is a hill behind the lake. There are many trees on the hillside. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "A man stands on a boat with five passengers.",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 93,
+            "value": "The man standing on the boat is holding a stick.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 131,
+            "value": "The boat is on a lake of green water.",
+            "entity": "neutral"
+          },
+          {
+            "start": 131,
+            "end": 164,
+            "value": " There is a hill behind the lake.",
+            "entity": "neutral"
+          },
+          {
+            "start": 165,
+            "end": 203,
+            "value": "There are many trees on the hillside. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A red bus is driving down the street. There are people on both side of the street walking. There is a giant clock tower building in the background.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "A red bus is driving down the street.",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 90,
+            "value": "There are people on both side of the street walking.",
+            "entity": "neutral"
+          },
+          {
+            "start": 91,
+            "end": 146,
+            "value": "There is a giant clock tower building in the background",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A kitchen with a breakfast nook and bar is displayed. The countertops are marble and the cabinets are slate blue. There is a bottle of water on the nook and some items sitting on the countertop.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 54,
+            "value": "A kitchen with a breakfast nook and bar is displayed. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 54,
+            "end": 112,
+            "value": "The countertops are marble and the cabinets are slate blue",
+            "entity": "neutral"
+          },
+          {
+            "start": 114,
+            "end": 194,
+            "value": "There is a bottle of water on the nook and some items sitting on the countertop.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a light colored horse standing in a field. There is dirt and grass on the ground around the horse. There are bushes on the ground behind the horse.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 51,
+            "value": "There is a light colored horse standing in a field.",
+            "entity": "neutral"
+          },
+          {
+            "start": 51,
+            "end": 107,
+            "value": " There is dirt and grass on the ground around the horse.",
+            "entity": "neutral"
+          },
+          {
+            "start": 108,
+            "end": 156,
+            "value": "There are bushes on the ground behind the horse.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A very detailed cake is displayed. The cake looks like a bag. There are sandals and a small little beach like area on the cake.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "A very detailed cake is displayed. ",
+            "entity": "positive"
+          },
+          {
+            "start": 35,
+            "end": 61,
+            "value": "The cake looks like a bag.",
+            "entity": "neutral"
+          },
+          {
+            "start": 62,
+            "end": 127,
+            "value": "There are sandals and a small little beach like area on the cake.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "This bathroom shower rod has a long brown fabric shower curtain. The toilet is white and in front of it there is a dark green rug. The tiles on the shower wall and floor are an off white",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 63,
+            "value": "This bathroom shower rod has a long brown fabric shower curtain",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 130,
+            "value": " The toilet is white and in front of it there is a dark green rug.",
+            "entity": "neutral"
+          },
+          {
+            "start": 131,
+            "end": 186,
+            "value": "The tiles on the shower wall and floor are an off white",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A group of people have gather around the skateboarding ramp to watch other skateboarder's skate on it. There is one person in the ramp. It looks like that person fell down off of their board.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 134,
+            "value": "A group of people have gather around the skateboarding ramp to watch other skateboarder's skate on it. There is one person in the ramp",
+            "entity": "neutral"
+          },
+          {
+            "start": 136,
+            "end": 191,
+            "value": "It looks like that person fell down off of their board.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "A cat is sitting on top of a suitcase. The cat is gray and has black stripes on it. There is a white blanket under the suitcase. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "A cat is sitting on top of a suitcase.",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 84,
+            "value": "The cat is gray and has black stripes on it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 84,
+            "end": 129,
+            "value": "There is a white blanket under the suitcase. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A train is sitting on a track. The train is a freight and is black and yellow. The sky is completely filled with clouds. This is the only train on the tracks",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "A train is sitting on a track.",
+            "entity": "negative"
+          },
+          {
+            "start": 31,
+            "end": 77,
+            "value": "The train is a freight and is black and yellow",
+            "entity": "neutral"
+          },
+          {
+            "start": 79,
+            "end": 120,
+            "value": "The sky is completely filled with clouds.",
+            "entity": "positive"
+          },
+          {
+            "start": 121,
+            "end": 157,
+            "value": "This is the only train on the tracks",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white bowl is on a table. There is peas and onions chopped up inside of the bowl. There is a fork in the side of the plate",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "A white bowl is on a table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 28,
+            "end": 83,
+            "value": "There is peas and onions chopped up inside of the bowl.",
+            "entity": "positive"
+          },
+          {
+            "start": 84,
+            "end": 124,
+            "value": "There is a fork in the side of the plate",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A building  with white window panes on them. The patios have plants on them. On the line of strings are colorful umbrellas hanging.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "A building  with white window panes on them. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 76,
+            "value": "The patios have plants on them.",
+            "entity": "neutral"
+          },
+          {
+            "start": 77,
+            "end": 131,
+            "value": "On the line of strings are colorful umbrellas hanging.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The statute is of a warrior. There is a clock at the top of the monument. The numbers are in roman numerals. There are tables and chairs at the bottom of the concrete momument. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "The statute is of a warrior. ",
+            "entity": "positive"
+          },
+          {
+            "start": 29,
+            "end": 73,
+            "value": "There is a clock at the top of the monument.",
+            "entity": "neutral"
+          },
+          {
+            "start": 74,
+            "end": 108,
+            "value": "The numbers are in roman numerals.",
+            "entity": "neutral"
+          },
+          {
+            "start": 109,
+            "end": 177,
+            "value": "There are tables and chairs at the bottom of the concrete momument. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The cat is looking at the camera. Its nose is light pink. The eyes are yellow with black pupil. The top head of the cat is is black and brown while the lower part is white. The cat's whiskers are white.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "The cat is looking at the camera. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 34,
+            "end": 57,
+            "value": "Its nose is light pink.",
+            "entity": "neutral"
+          },
+          {
+            "start": 58,
+            "end": 95,
+            "value": "The eyes are yellow with black pupil.",
+            "entity": "neutral"
+          },
+          {
+            "start": 96,
+            "end": 172,
+            "value": "The top head of the cat is is black and brown while the lower part is white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 173,
+            "end": 202,
+            "value": "The cat's whiskers are white.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a large white truck in the grass. There is writing on the side of the truck. There is rust on the top of the truck. There are black tires on the truck.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "There is a large white truck in the grass. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 85,
+            "value": "There is writing on the side of the truck.",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 125,
+            "value": "There is rust on the top of the truck. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 160,
+            "value": "There are black tires on the truck.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "a woman is posing in the mirror. the mirror is very long. the woman is wearing a green shirt. she also has a purple tie on. her hair is short and black. she is looking to her left towards the wall.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 58,
+            "value": "a woman is posing in the mirror. the mirror is very long. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 58,
+            "end": 92,
+            "value": "the woman is wearing a green shirt",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 152,
+            "value": "she also has a purple tie on. her hair is short and black.",
+            "entity": "neutral"
+          },
+          {
+            "start": 124,
+            "end": 153,
+            "value": "her hair is short and black. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 153,
+            "end": 197,
+            "value": "she is looking to her left towards the wall.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white paper plate with a colorful frosted donut on top of it. There is a white napkin behind the plate and they are sitting on top of the wood table. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 64,
+            "value": "A white paper plate with a colorful frosted donut on top of it. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 64,
+            "end": 152,
+            "value": "There is a white napkin behind the plate and they are sitting on top of the wood table. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A green van is driving on the street. There is headlights on the van. There is a red license plate on the van. The person driving the bus is wearing a blue shirt. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "A green van is driving on the street",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 69,
+            "value": "There is headlights on the van.",
+            "entity": "positive"
+          },
+          {
+            "start": 70,
+            "end": 110,
+            "value": "There is a red license plate on the van.",
+            "entity": "neutral"
+          },
+          {
+            "start": 111,
+            "end": 163,
+            "value": "The person driving the bus is wearing a blue shirt. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A clock is on the side of a building. It has fancy decorations all around it and the time on the clock is 12:47. The clock face is white and it has roman numerals. Buildings surround the clock. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "A clock is on the side of a building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 112,
+            "value": "It has fancy decorations all around it and the time on the clock is 12:47.",
+            "entity": "neutral"
+          },
+          {
+            "start": 113,
+            "end": 163,
+            "value": "The clock face is white and it has roman numerals.",
+            "entity": "neutral"
+          },
+          {
+            "start": 164,
+            "end": 194,
+            "value": "Buildings surround the clock. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a tall spotted giraffe standing near some trees. The trees has many green leaves on them. The sky above the trees is blue. The ground under the giraffe is filled with dry grass.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 56,
+            "value": "There is a tall spotted giraffe standing near some trees",
+            "entity": "neutral"
+          },
+          {
+            "start": 58,
+            "end": 98,
+            "value": "The trees has many green leaves on them.",
+            "entity": "positive"
+          },
+          {
+            "start": 99,
+            "end": 130,
+            "value": "The sky above the trees is blue",
+            "entity": "neutral"
+          },
+          {
+            "start": 132,
+            "end": 186,
+            "value": "The ground under the giraffe is filled with dry grass.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are people standing in a room. There is a white table with bottles on top of the table. There are windows on the wall behind them. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "There are people standing in a room. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 37,
+            "end": 93,
+            "value": "There is a white table with bottles on top of the table.",
+            "entity": "neutral"
+          },
+          {
+            "start": 94,
+            "end": 137,
+            "value": "There are windows on the wall behind them. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A little baseball player is getting ready to hit a baseball. He has a red bat and red helmet on. His shirt is red and yellow and says the cardinals on it and he has some bracelets on.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 60,
+            "value": "A little baseball player is getting ready to hit a baseball.",
+            "entity": "neutral"
+          },
+          {
+            "start": 61,
+            "end": 97,
+            "value": "He has a red bat and red helmet on. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 97,
+            "end": 183,
+            "value": "His shirt is red and yellow and says the cardinals on it and he has some bracelets on.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The double decker bus is red. There are people standing out beside it. They are waiting to leave. There are two little boys. One has a spiderman bookbag. There is an older man with a blue bag. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "The double decker bus is red.",
+            "entity": "neutral"
+          },
+          {
+            "start": 30,
+            "end": 70,
+            "value": "There are people standing out beside it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 70,
+            "end": 98,
+            "value": " They are waiting to leave. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 98,
+            "end": 123,
+            "value": "There are two little boys",
+            "entity": "neutral"
+          },
+          {
+            "start": 125,
+            "end": 153,
+            "value": "One has a spiderman bookbag.",
+            "entity": "neutral"
+          },
+          {
+            "start": 154,
+            "end": 193,
+            "value": "There is an older man with a blue bag. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a white and blue bus on the street. There is a brown building behind the bus. There is a white crosswalk on the street under the bus. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "There is a white and blue bus on the street.",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 86,
+            "value": "There is a brown building behind the bus.",
+            "entity": "neutral"
+          },
+          {
+            "start": 87,
+            "end": 142,
+            "value": "There is a white crosswalk on the street under the bus.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A small white airplane is in the sky. There are stripes on the side of the airplane. There is writing on the tail of the airplane. There are small windows on the plane. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "A small white airplane is in the sky. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 84,
+            "value": "There are stripes on the side of the airplane.",
+            "entity": "neutral"
+          },
+          {
+            "start": 85,
+            "end": 130,
+            "value": "There is writing on the tail of the airplane.",
+            "entity": "neutral"
+          },
+          {
+            "start": 131,
+            "end": 168,
+            "value": "There are small windows on the plane.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A small dark wood table in front of a window with white curtains on it. There is a silver laptop sitting on top of the table. There is a white mouse next to the laptop. There is a glass of water on the table behind the laptop.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 71,
+            "value": "A small dark wood table in front of a window with white curtains on it.",
+            "entity": "neutral"
+          },
+          {
+            "start": 72,
+            "end": 126,
+            "value": "There is a silver laptop sitting on top of the table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 126,
+            "end": 168,
+            "value": "There is a white mouse next to the laptop.",
+            "entity": "neutral"
+          },
+          {
+            "start": 169,
+            "end": 226,
+            "value": "There is a glass of water on the table behind the laptop.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "People are standing in front of a tree. There is a man with a black hat on. There is a woman with a red shirt on. There are two kids standing next to them. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "People are standing in front of a tree",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 75,
+            "value": " There is a man with a black hat on.",
+            "entity": "neutral"
+          },
+          {
+            "start": 76,
+            "end": 113,
+            "value": "There is a woman with a red shirt on.",
+            "entity": "neutral"
+          },
+          {
+            "start": 114,
+            "end": 155,
+            "value": "There are two kids standing next to them.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is boarding outside. He is on a clay colored surface. His shirt is blue and his pants are rolled up and are brown. The sun is shining extremely bright.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "A man is boarding outside",
+            "entity": "neutral"
+          },
+          {
+            "start": 27,
+            "end": 59,
+            "value": "He is on a clay colored surface.",
+            "entity": "neutral"
+          },
+          {
+            "start": 60,
+            "end": 120,
+            "value": "His shirt is blue and his pants are rolled up and are brown.",
+            "entity": "neutral"
+          },
+          {
+            "start": 121,
+            "end": 157,
+            "value": "The sun is shining extremely bright.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There are some portable bathrooms sitting near a railroad track. There are some trains sitting on the track. The portable bathrooms are blue with a white roof and the trains are yellow.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 64,
+            "value": "There are some portable bathrooms sitting near a railroad track.",
+            "entity": "neutral"
+          },
+          {
+            "start": 65,
+            "end": 108,
+            "value": "There are some trains sitting on the track.",
+            "entity": "neutral"
+          },
+          {
+            "start": 109,
+            "end": 185,
+            "value": "The portable bathrooms are blue with a white roof and the trains are yellow.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are several bags in a hallway. There is a blue bag on the ground in the front there are yellow tags on the bag. There are several suitcases standing up behind the bag. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "There are several bags in a hallway.",
+            "entity": "neutral"
+          },
+          {
+            "start": 37,
+            "end": 117,
+            "value": "There is a blue bag on the ground in the front there are yellow tags on the bag.",
+            "entity": "neutral"
+          },
+          {
+            "start": 118,
+            "end": 174,
+            "value": "There are several suitcases standing up behind the bag. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white hatchback car is driving through a crosswalk on a city street on a sunny day. To the right of the car there is a white office building, and on across the street there is a tall tan building. Trees are on the sidewalk near the buildings.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 85,
+            "value": "A white hatchback car is driving through a crosswalk on a city street on a sunny day.",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 198,
+            "value": "To the right of the car there is a white office building, and on across the street there is a tall tan building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 199,
+            "end": 244,
+            "value": "Trees are on the sidewalk near the buildings.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a large brown vase on the ground. There are large rocks on the sides of the vase. There is a brown building behind the vase with plants in front of the building.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "There is a large brown vase on the ground.",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 91,
+            "value": "There are large rocks on the sides of the vase. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 91,
+            "end": 170,
+            "value": "There is a brown building behind the vase with plants in front of the building.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is snowboarding on the top of a mountain. He has on what appears to be an orange north face coat. Behind him is a vast horizon of very tall mountains. It is daytime and there are a lot of clouds in the sky.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "A man is snowboarding on the top of a mountain.",
+            "entity": "negative"
+          },
+          {
+            "start": 48,
+            "end": 103,
+            "value": "He has on what appears to be an orange north face coat.",
+            "entity": "positive"
+          },
+          {
+            "start": 104,
+            "end": 156,
+            "value": "Behind him is a vast horizon of very tall mountains.",
+            "entity": "neutral"
+          },
+          {
+            "start": 156,
+            "end": 212,
+            "value": " It is daytime and there are a lot of clouds in the sky.",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There is a large gray duck next to the water. There are small waves in the water. There is a log next to the water. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "There is a large gray duck next to the water. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 46,
+            "end": 82,
+            "value": "There are small waves in the water. ",
+            "entity": "negative"
+          },
+          {
+            "start": 82,
+            "end": 116,
+            "value": "There is a log next to the water. ",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a brown bear playing in a pool of water. There is a large brown rock wall behind the bear. The bear is drenched in water. The water the bear is in is greenish blue.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "There is a brown bear playing in a pool of water.",
+            "entity": "negative"
+          },
+          {
+            "start": 50,
+            "end": 99,
+            "value": "There is a large brown rock wall behind the bear.",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 131,
+            "value": "The bear is drenched in water. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 131,
+            "end": 173,
+            "value": "The water the bear is in is greenish blue.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A very large clock sits mounted on the side of a building. The clock has golden numbers and clock hands. The face of the clock is dark brown. There is a brick wall behind the clock on the building.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 58,
+            "value": "A very large clock sits mounted on the side of a building.",
+            "entity": "neutral"
+          },
+          {
+            "start": 59,
+            "end": 103,
+            "value": "The clock has golden numbers and clock hands",
+            "entity": "neutral"
+          },
+          {
+            "start": 105,
+            "end": 142,
+            "value": "The face of the clock is dark brown. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 142,
+            "end": 197,
+            "value": "There is a brick wall behind the clock on the building.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A herd of elephants are walking alog side of the water. There are a couple of white birds hanging around the elephants. Some of the elephants have long white tusks. One of the elephants is facing the camera.",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 55,
+            "value": "A herd of elephants are walking alog side of the water.",
+            "entity": "negative"
+          },
+          {
+            "start": 56,
+            "end": 119,
+            "value": "There are a couple of white birds hanging around the elephants.",
+            "entity": "neutral"
+          },
+          {
+            "start": 120,
+            "end": 164,
+            "value": "Some of the elephants have long white tusks.",
+            "entity": "negative"
+          },
+          {
+            "start": 165,
+            "end": 207,
+            "value": "One of the elephants is facing the camera.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "There are posted notes stuck to the table. The notes are in various different colors. There is a pair of scissors on the table as well. The table is made of a light-colored wood.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "There are posted notes stuck to the table. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 43,
+            "end": 85,
+            "value": "The notes are in various different colors.",
+            "entity": "neutral"
+          },
+          {
+            "start": 86,
+            "end": 135,
+            "value": "There is a pair of scissors on the table as well.",
+            "entity": "neutral"
+          },
+          {
+            "start": 136,
+            "end": 178,
+            "value": "The table is made of a light-colored wood.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There is a wood block on the counter. There is cut up vegetables in piles on top of the block. There is a green bowl in front of the block. There is a green bottle next to the bowl.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 37,
+            "value": "There is a wood block on the counter.",
+            "entity": "neutral"
+          },
+          {
+            "start": 38,
+            "end": 94,
+            "value": "There is cut up vegetables in piles on top of the block.",
+            "entity": "positive"
+          },
+          {
+            "start": 95,
+            "end": 140,
+            "value": "There is a green bowl in front of the block. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 140,
+            "end": 181,
+            "value": "There is a green bottle next to the bowl.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are people walking on a walkway. There are shirts hanging from a rack on the side of the walkway. There is a white horse next to the people. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "There are people walking on a walkway. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 39,
+            "end": 103,
+            "value": "There are shirts hanging from a rack on the side of the walkway.",
+            "entity": "neutral"
+          },
+          {
+            "start": 104,
+            "end": 145,
+            "value": "There is a white horse next to the people",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is on the beach with an object in his hand. He has on blue floral shorts and navy blue shirt. There is a very big hill located in between the shore and ocean",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "A man is on the beach with an object in his hand.",
+            "entity": "neutral"
+          },
+          {
+            "start": 50,
+            "end": 99,
+            "value": "He has on blue floral shorts and navy blue shirt.",
+            "entity": "neutral"
+          },
+          {
+            "start": 100,
+            "end": 163,
+            "value": "There is a very big hill located in between the shore and ocean",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A man is in a black wetsuit. The man is riding a white surfboard. There is a large wave in the water the man is surfing on. ",
+        "intent": "high risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "A man is in a black wetsuit.",
+            "entity": "positive"
+          },
+          {
+            "start": 29,
+            "end": 66,
+            "value": "The man is riding a white surfboard. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 66,
+            "end": 123,
+            "value": "There is a large wave in the water the man is surfing on.",
+            "entity": "negative"
+          }
+        ]
+      },
+      {
+        "text": "There is a plain glazed donut sitting on an open white napkin someone is holding in their hand.  There is someone sitting at a table in the background.  There is a gray chair with a book on top of it next to the napkin.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 96,
+            "value": "There is a plain glazed donut sitting on an open white napkin someone is holding in their hand. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 97,
+            "end": 152,
+            "value": "There is someone sitting at a table in the background. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 153,
+            "end": 219,
+            "value": "There is a gray chair with a book on top of it next to the napkin.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A brown tree trunk sits in a field of grass. There is a blue and white bird on the grass behind the tree. There are several bushes surrounding the bird. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 44,
+            "value": "A brown tree trunk sits in a field of grass.",
+            "entity": "neutral"
+          },
+          {
+            "start": 45,
+            "end": 105,
+            "value": "There is a blue and white bird on the grass behind the tree.",
+            "entity": "neutral"
+          },
+          {
+            "start": 106,
+            "end": 151,
+            "value": "There are several bushes surrounding the bird",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are two cats under the car. One cat is black behind him is a black and white cat. Both cats are resting.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "There are two cats under the car.",
+            "entity": "neutral"
+          },
+          {
+            "start": 34,
+            "end": 86,
+            "value": "One cat is black behind him is a black and white cat",
+            "entity": "neutral"
+          },
+          {
+            "start": 88,
+            "end": 110,
+            "value": "Both cats are resting.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A black toilet is on the floor. The seat of the toilet is black and the tank is white. There is a roll of toilet paper on the back of the toilet. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "A black toilet is on the floor.",
+            "entity": "neutral"
+          },
+          {
+            "start": 32,
+            "end": 86,
+            "value": "The seat of the toilet is black and the tank is white.",
+            "entity": "neutral"
+          },
+          {
+            "start": 87,
+            "end": 144,
+            "value": "There is a roll of toilet paper on the back of the toilet",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A McDonald's paper bag with a wrapper and a coffee cup top inside sits on a the wooden base of a park bench. The frame of the bench is iron. the back has an ornate swirling design made of iron.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 107,
+            "value": "A McDonald's paper bag with a wrapper and a coffee cup top inside sits on a the wooden base of a park bench",
+            "entity": "neutral"
+          },
+          {
+            "start": 109,
+            "end": 193,
+            "value": "The frame of the bench is iron. the back has an ornate swirling design made of iron.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Brown bricks are stack on a pile over the dirt. A brown cow walks on the dirt road. The gravel on the dirt is grey. The thin cow has a shadow on the road. The yellow house has a big grey door. A patch of grass is on front the pile of bricks.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "Brown bricks are stack on a pile over the dirt.",
+            "entity": "neutral"
+          },
+          {
+            "start": 48,
+            "end": 84,
+            "value": "A brown cow walks on the dirt road. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 84,
+            "end": 116,
+            "value": "The gravel on the dirt is grey. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 116,
+            "end": 154,
+            "value": "The thin cow has a shadow on the road.",
+            "entity": "neutral"
+          },
+          {
+            "start": 155,
+            "end": 193,
+            "value": "The yellow house has a big grey door. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 193,
+            "end": 241,
+            "value": "A patch of grass is on front the pile of bricks.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "The dog is running through the sprinkler at the park. The dog is in full motion with a small orange ball in its mouth. People are in the background watching the dog. The people and the dog are fenced in by a tall grey gate.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "The dog is running through the sprinkler at the park.",
+            "entity": "negative"
+          },
+          {
+            "start": 54,
+            "end": 119,
+            "value": "The dog is in full motion with a small orange ball in its mouth. ",
+            "entity": "negative"
+          },
+          {
+            "start": 119,
+            "end": 165,
+            "value": "People are in the background watching the dog.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are people at the sidewalk. The people on the right are holding banners and protesting, while there are three people trying to cross the street. Behind the crowd are line of buildings",
+        "intent": "medium risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "There are people at the sidewalk.",
+            "entity": "positive"
+          },
+          {
+            "start": 34,
+            "end": 150,
+            "value": "The people on the right are holding banners and protesting, while there are three people trying to cross the street.",
+            "entity": "negative"
+          },
+          {
+            "start": 151,
+            "end": 189,
+            "value": "Behind the crowd are line of buildings",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "Two people, a man and a girl are playing Wii. They both have steering wheel controllers and are looking at something. Behind them is a brown haired girl sitting on a brown couch.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 45,
+            "value": "Two people, a man and a girl are playing Wii.",
+            "entity": "neutral"
+          },
+          {
+            "start": 46,
+            "end": 117,
+            "value": "They both have steering wheel controllers and are looking at something.",
+            "entity": "neutral"
+          },
+          {
+            "start": 118,
+            "end": 178,
+            "value": "Behind them is a brown haired girl sitting on a brown couch.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A doll is dressed up in a black suit with a silver vest. There is a green couch with red throw pillows on it behind him. There is a gold table in front of the couch",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 57,
+            "value": "A doll is dressed up in a black suit with a silver vest. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 57,
+            "end": 120,
+            "value": "There is a green couch with red throw pillows on it behind him.",
+            "entity": "neutral"
+          },
+          {
+            "start": 120,
+            "end": 164,
+            "value": " There is a gold table in front of the couch",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "An airplane just landed at the runway. The runway is covered with snow. The plane shows its name AIR CANADA. On the tail of the plane is a red maple leaf painted on it.",
+        "intent": "low risk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "An airplane just landed at the runway.",
+            "entity": "positive"
+          },
+          {
+            "start": 39,
+            "end": 71,
+            "value": "The runway is covered with snow.",
+            "entity": "negative"
+          },
+          {
+            "start": 72,
+            "end": 109,
+            "value": "The plane shows its name AIR CANADA. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 109,
+            "end": 168,
+            "value": "On the tail of the plane is a red maple leaf painted on it.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "There are two people standing next to a wooden fence. They are holding umbrellas over their heads. One of the umbrella is white and the other one is red. There are trees in front of water. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 54,
+            "value": "There are two people standing next to a wooden fence. ",
+            "entity": "neutral"
+          },
+          {
+            "start": 54,
+            "end": 98,
+            "value": "They are holding umbrellas over their heads.",
+            "entity": "positive"
+          },
+          {
+            "start": 99,
+            "end": 153,
+            "value": "One of the umbrella is white and the other one is red.",
+            "entity": "neutral"
+          },
+          {
+            "start": 154,
+            "end": 188,
+            "value": "There are trees in front of water.",
+            "entity": "neutral"
+          }
+        ]
+      },
+      {
+        "text": "A white and black motorcycle is on the street. There are bright blue lights on the motorcycle. There is a man in a blue shirt and a white helmet sitting on top of it",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "A white and black motorcycle is on the street.",
+            "entity": "neutral"
+          },
+          {
+            "start": 47,
+            "end": 94,
+            "value": "There are bright blue lights on the motorcycle.",
+            "entity": "positive"
+          },
+          {
+            "start": 95,
+            "end": 165,
+            "value": "There is a man in a blue shirt and a white helmet sitting on top of it",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "A breakfast is displayed on a plate and in a cup. The cup is a chai or milk drink with cinnamon on the top. A nice blueberry yogurt parfait like bowl is on a plate.",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "A breakfast is displayed on a plate and in a cup.",
+            "entity": "positive"
+          },
+          {
+            "start": 50,
+            "end": 106,
+            "value": "The cup is a chai or milk drink with cinnamon on the top",
+            "entity": "positive"
+          },
+          {
+            "start": 108,
+            "end": 163,
+            "value": "A nice blueberry yogurt parfait like bowl is on a plate",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "There is a blue and yellow train on the tracks. There are trees next to the tracks. There is a small building on the other side of the tracks. ",
+        "intent": "no risk ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 47,
+            "value": "There is a blue and yellow train on the tracks.",
+            "entity": "neutral"
+          },
+          {
+            "start": 48,
+            "end": 83,
+            "value": "There are trees next to the tracks.",
+            "entity": "neutral"
+          },
+          {
+            "start": 84,
+            "end": 143,
+            "value": "There is a small building on the other side of the tracks. ",
+            "entity": "positive"
+          }
+        ]
+      }
+    ]
+  }
+}
