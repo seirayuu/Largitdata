@@ -1,0 +1,501 @@
+[
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The sky is gloomy, with dark clouds and gusty winds. People on the street are hurrying, clutching their clothes tightly as they move forward. The dim lights on both sides of the shops create a sense of oppression throughout the neighborhood. People are quickening their pace, as if searching for shelter.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the midst of a riot at a sports event, people push and shove each other, fighting on the ground. The chaotic scene appears disordered and uncontrolled. Everyone struggles in the chaos, but cannot change the fact that the situation is becoming increasingly chaotic.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a crowded farmers market, people have pale faces and nervously squeeze through the crowd. Abandoned food on stalls emits a nauseating smell, while vendors are busy cleaning contaminated goods. People scramble to escape, as if the whole market has turned into a dangerous powder keg.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A music concert venue is filled with smoke, and flames flicker on stage. The audience panics, fleeing in all directions. The sound of stomping and screams fills the entire space. The scene is chaotic, and everyone tries their best to avoid this disaster.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "On a construction site of a tall building, a worker slipped and fell from the top, but fortunately, he only sustained minor injuries. The workers were busy with the construction, and the view from the height was dizzying. Suddenly, the worker slipped and lost his balance. He watched his body fall down, filled with fear and despair. However, his fate seemed not entirely in his own hands.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In an indoor playground, children were playing happily, screaming and jumping, enjoying the rhythm of the music. However, the crowd was too crowded to accommodate more people. Suddenly, people began to squeeze each other outward, causing a small stampede. Several people were knocked down, plunged into pain and panic. They made a wailing sound, trying to seek help. Finally, staff and security personnel rushed to the scene, urgently launched rescue work.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a skiing activity, a beginner was bravely challenging a steep slope. He felt the speed and excitement of skiing, wanting to enjoy the process. However, due to the lack of skill, he lost his balance and fell to the ground. His body collided violently with the snow, making a painful groan. Eventually, he stopped in an awkward position, and his ankle was sprained.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a fishing boat out to sea, the sea breeze blew gently on the faces of the fishermen, and the sunlight sprinkled on the sea, shimmering with beautiful light. However, suddenly, a strong wind blew and the sea was raging. The boat was shaking, and the fishermen desperately grabbed anything they could, trying to maintain their balance. However, one of the crew members did not hold on and was thrown into the sea by the huge waves. He struggled desperately but to no avail. Fortunately, other crew members rescued him urgently and saved him from the clutches of death.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "On an airplane, the pilot suddenly feels unwell, and the passengers witness this and start to panic. Soon after, the plane starts shaking continuously, accompanied by various sounds. Passengers put on oxygen masks and begin to worry about their safety, feeling a sense of unease and fear in the air.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a subway station, passengers are queuing up, waiting for their trains. Suddenly, a woman collapses on the ground, causing congestion. Other passengers start to panic, some dial emergency numbers, while others attempt to perform CPR on the collapsed woman. The scene is tense, with the crowd constantly surging.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In an amusement park, people are having fun, with laughter filling the air. However, suddenly, a roller coaster malfunctions, and the riders find themselves in danger. Some scream, while others hold onto the safety bars tightly, creating chaos at the scene.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a nightclub, music blares loudly, and people are reveling in the atmosphere. Suddenly, a drunk person storms into the venue, knocking over tables and chairs, triggering a violent incident. The scene becomes chaotic, with people fleeing and the drunk person shouting, causing more panic.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": " a sports stadium, spectators cheer passionately for their supported team. Suddenly, a fan goes on a rampage and charges towards the players on the field. The scene is immediately filled with chaos, as people flee and the police respond urgently.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a hospital, people wait in line to see a doctor. Suddenly, a patient's condition deteriorates, causing chaos at the scene. Other patients start to worry about their own conditions, while medical staff become busy, making the scene exceptionally tense.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside an elevator, people wait for its arrival. Suddenly, the elevator stops abruptly, trapping people inside and putting them in danger. Some people panic and press the emergency button, while others try to open the elevator doors themselves to seek help.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a supermarket, people are shopping and selecting goods. Suddenly, a customer collapses, causing panic at the scene. Others quickly call for emergency assistance, while store employees rush to transport the collapsed customer to the hospital, making the scene exceptionally tense.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a food factory, workers are producing food. Suddenly, a machine malfunctions, causing chaos at the scene. Workers run in all directions, sirens blare, and cries for help fill the air, creating a chaotic atmosphere.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a gaming arcade, children are playing video games. Suddenly, a child feels unwell and collapses, causing panic at the scene. Other children shout for help, while parents begin to feel extremely anxious.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "At an outdoor music concert, spectators are enjoying the music, dancing with joy. Suddenly, a spectator collapses, triggering panic at the scene. Others cry out for help, while medical personnel rush to the scene, creating an exceptionally tense atmosphere.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a cement plant, workers are producing cement. Suddenly, a machine malfunctions, causing chaos at the scene. Workers flee in all directions, while firefighters begin to arrive, creating a scene of chaos.",
+    "response": "m"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The statute is of a warrior. There is a clock at the top of the monument. The numbers are in roman numerals. There are tables and chairs at the bottom of the concrete momument. ",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The cat is looking at the camera. Its nose is light pink. The eyes are yellow with black pupil. The top head of the cat is is black and brown while the lower part is white. The cat's whiskers are white.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "There is a large white truck in the grass. There is writing on the side of the truck. There is rust on the top of the truck. There are black tires on the truck.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A boy wearing a tiger shirt and shorts, is holding two frisbees, one is yellow and one is blue. Beside the grassy area, a silver car is parked. Behind the boy is a car park. Behind the car is a house with yellow paint and white windows.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "a woman is posing in the mirror. the mirror is very long. the woman is wearing a green shirt. she also has a purple tie on. her hair is short and black. she is looking to her left towards the wall.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A green van is driving on the street. There is headlights on the van. There is a red license plate on the van. The person driving the bus is wearing a blue shirt. ",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A clock is on the side of a building. It has fancy decorations all around it and the time on the clock is 12:47. The clock face is white and it has roman numerals. Buildings surround the clock.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A baby gray elephant has big ears. The small tusk is white. The trunk has wrinkles on it and it is curled on the tip. The field has short brown grass. ",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A man is standing behind a table. There is a screen behind the man. There is a laptop on the table in front of the man. ",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "a bus is going down the road. the bus has a blue star on it. the window is very big. the windshield wipers are black. there is an electronic sign on the top of the front of the bus.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A corn-shaped bowl is holding a bountiful helping of vegetables. They include cauliflower, broccoli, and onions. The bowl, painted yellow and green, looks festive.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "a reflection is seen in the woman. there are two boats in the water. the boats are dark blue in color. there are some white lines in the water.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A couple of people are smiling at the camera. They are sitting on the top of an elephant that has a seating area on it's back. One man is walking next to the elephant going the same way.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A silver and green train is on the tracks. The tracks are black with little rocks next to it. There are people standing on the platform next to the trains",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A woman is holding an umbrella. The woman is coming out of the train station. The picture is in black and white. There are tall buildings in the near distance.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "An older man is holding a cell phone. The phone is currently ringing and it is showing the phone number. The phone is red and it is a touch screen cellular device.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A man is wearing a red jacket and white pants. There is a black helmet and goggles on his head. He is holding ski poles in his hands. There is trees next to the man in the snow. ",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A man in a black suit is holding hands with an elephant. The elephant is large and gray, and is sitting on a table. The elephant and man are in a circus.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A man is attempting to hit a tennis ball back over the net. The court is blue and the outer part is green. He has on a blue navy shirt and some short blue navy shorts.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "there is a toilet in a bathroom. the toilet is white. there are tiles on the floor. the tiles are white and green. there is a bucket next to the toilet.",
+    "response": "n"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A loud bang suddenly sounded on the tracks as the moving train derailed and toppled onto the side of the tracks. In the surrounding fields, the wheat waves undulated with the wind. The passengers in the carriage panicked and fled from the compartment, screaming and crying. The air was filled with the smell of metal and paint. The distant mountains looked particularly peaceful in the setting sun.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "As a train rounded a bend, it suddenly derailed, sending the passenger cars crashing to the tracks. Glass shattered everywhere as passengers screamed and fled from the overturned cars. Rescue workers quickly arrived at the scene, with medical personnel tending to the injured and railway workers scrambling to clear the tracks.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The construction site was filled with dust and debris as reinforced concrete structures were taking shape. Suddenly, a deafening crash was heard, and part of the building collapsed in a heap of rubble. Debris and dust filled the air as workers fled the scene in panic. Rescue teams arrived promptly and began searching for survivors amidst the wreckage.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the bustling city center, a truck loaded with explosives suddenly let out a deafening blast. Flames and smoke billowed into the sky, trembling the surrounding buildings. People fled in panic, and the atmosphere was filled with dust and debris. The rescue team arrived at the scene promptly to begin their rescue efforts.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A yacht suddenly encounters a violent storm on the calm sea. Giant waves crash against the hull, and the wind howls furiously, as if trying to tear the yacht apart. The passengers panic and are forced to abandon ship. The sea is turbulent, and the rescue team rushes to conduct a frantic search and rescue operation.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside the underground mine, the sound of cracking rocks echoes. Suddenly, a deafening blast rocks the mine, plunging it into darkness. The rescue team quickly assembles, braving life-threatening conditions, to search for the trapped miners. The families anxiously await news, praying for their loved ones' safety.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "High above the ground, the sun shone down on the construction site. Worker Zhao was performing his job at a dangerous height when a strong wind suddenly blew, causing him to lose his balance and fall. The ground safety officer gaped as he quickly dialed for emergency assistance.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "It The mall was bustling with activity when suddenly a loud explosion rocked the building, sending people into a panic and fleeing in all directions. turned out to be a terrorist attack, leaving the mall in chaos.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The machines at the factory were humming loudly when suddenly a deafening explosion rocked the building, sending fire and smoke billowing into the air. The employees fled in panic, their faces covered in dust and soot from the explosion.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the fury of wind and rain, houses shook and swayed, threatening to collapse. Floodwaters surged through the streets, swallowing up villages and farmland. People fled in panic, seeking safe refuge as the scent of mud and water filled the air.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a busy city center, on a sunny morning, people hurriedly walked through crowded streets. Suddenly, a small plane lost control and plummeted from the sky. The sharp engine noise and the sound of wind filled the entire square, instantly shattering the calm atmosphere. The plane crashed into the ground with a loud roar, scattering debris and leaving bloodstains and scattered items in the air, creating a tragic scene.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The production workshop of a chemical factory was filled with the noisy sounds of machines running. Workers wore safety gear and focused on operating the equipment. Suddenly, a loud noise broke the tranquility, and thick smoke and flames quickly spread. The workers screamed and tried to escape the scene, but the fire spread rapidly, trapping them. The choking smoke and scorching flames made it impossible for them to breathe, causing serious injuries or death.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A mountainous road meandered, surrounded by lush trees. The sunlight filtered through the leaves and sprinkled on the road, giving a sense of tranquility and serenity. Suddenly, a truck went out of control and crashed into a bus. The collision produced a piercing metal friction sound, mixed with screams of terror. The passengers in the bus were thrown around by the violent impact, their bodies colliding with the hard objects inside the cabin, creating a scene of carnage and chaos",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a large sports stadium, the crowd roared with excitement, cheering and applauding. Lights flickered, and music reverberated. Suddenly, flames soared from the edge of the stage. The audience panicked and rushed towards the exits, causing congestion and confusion. Smoke quickly filled the air, thick gray smoke obscured the view, making it impossible to discern the direction. Some spectators were trampled in the crowded crowd, screams and cries intertwined, forming a chorus of panic.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a high-tech company's laboratory, calm and quietness prevailed as equipment hummed softly. Staff members focused on operating instruments. Suddenly, a violent explosion shattered the tranquility, and the lab was filled with acrid smoke and burning smell. The staff members frantically searched for an exit, but the fire spread quickly, fierce flames licking the walls and furniture, creating a terrifying disaster scene",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a large hospital's operating room, white walls and bright surgical lights created a clean and professional atmosphere. Medical staff wearing masks and gloves were carefully performing surgery. Suddenly, monitoring equipment emitted an alarm sound, and the patient's condition rapidly deteriorated. Doctors hurriedly adjusted the equipment, but the patient's condition worsened dramatically, ultimately resulting in death from surgical complications. The operating room was filled with a heavy and disappointed atmosphere.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a closed swimming pool, a chemical substance leakage occurred due to improper water treatment. Swimmers suddenly smelled a pungent odor, felt difficulty breathing, and their eyes started to burn. In an emergency, swimmers crowded towards the edge of the pool, trying to quickly leave the area.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A forest fire suddenly broke out in a remote mountainous area. Thick smoke billowed, flames raged, and nearby residents were forced to evacuate. Some people were injured during the evacuation due to complex terrain and rapid fire, and one person unfortunately died.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "On a city bus, the driver lost control due to operational errors and hit a pedestrian. After the accident, the passengers on the bus were thrown around by the violent impact, causing chaos. Unfortunately, the pedestrian died on the spot, and the passengers on the bus were also injured to varying degrees.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a large music concert venue, the emergency evacuation system failed to start due to safety facilities malfunctioning. The audience tried to escape in panic, but the crowded crowd caused many people to be crushed and injured. In the chaos, one audience member died due to the pressure.",
+    "response": "H"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside office buildings, thick smoke and a burnt smell fill the air, as flames continue to spread. People run frantically in the darkness, screams and banging intertwining, creating an atmosphere of panic. From the corridors, screams and cries can be heard, sending shivers down one's spine.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "On the beach, wind and rain collide, and giant waves rush towards the shore like furious sea beasts. Screams and cries for help mix with the roar of the storm. Umbrellas on the beach are blown over, and the sea water invades recklessly. Observers instinctively retreat, fearing the power of nature.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "After an explosion at a chemical factory, chaos ensues. Flames burn fiercely, black smoke billows, and the surrounding trees and buildings tremble from the shockwaves. Screams and wails echo back and forth, causing heart-pounding fear as if the whole world is trembling.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A blizzard on a high mountain reduces visibility to almost zero. Snowflakes carry a bone-chilling coldness that makes people shiver. Mountaineers huddle together for warmth, but their bodies are already suffering from severe frostbite. In such conditions, everyone is searching for a glimmer of hope, but the cold weather leaves them with nowhere to go.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A bus was driving downhill, and the driver skillfully operated the steering wheel, trying to avoid colliding with other vehicles. However, at this moment, the brakes failed. The driver felt a wave of panic, but he immediately calmed down and quickly turned the steering wheel, trying to guide the bus to a safe place. However, the speed of the bus was too fast, and it eventually collided with the trees on the roadside. Several passengers were thrown out of their seats, groaning in pain, and bleeding from their wounds. Their faces were full of pain and fear",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a warehouse where a fire broke out, firefighters were struggling to put out the flames. Thick smoke filled the entire warehouse, and the high temperature made it difficult to breathe. The firefighters worked together, using water cannons to wash away the flames and trying to control the fire. However, one of the firefighters was trapped by smoke and high temperatures, and could only rely on a breathing apparatus to survive. He felt his body becoming heavier and almost unable to move. However, he knew that he had to hold on, for his own life and for the safety of others.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a hiking activity in the mountains, participants walked happily on the rugged mountain road, enjoying the beautiful scenery of nature. Suddenly, a participant slipped and lost his balance, like a stone out of control rolling down a steep slope. His body slammed against the rocks, making a screaming sound. Eventually, he stopped in an inconspicuous corner, with a broken leg. He lay on the ground in pain, waiting for rescue.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a building, electricians were busy repairing electrical wires. They skillfully operated the tools and carefully connected the wires together. However, at this time, one of the electricians touched the live wire and was electrocuted. He let out a scream of despair, and his body convulsed violently. His colleagues immediately realized the danger, quickly disconnected the power supply, and pulled him away from the wire. The electrician fell to the ground, his whole body numb, feeling as if he had lost consciousness. Emergency medical personnel rushed to the scene and worked hard to save his life",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Cars on the highway, with traffic flowing like a tide, getting closer to each other. Suddenly, a sedan loses control and crashes into the barrier, igniting flames and causing a serious accident. Surrounding vehicles panic and swerve, honking their horns frantically, leading to more collisions and chaos at the scene.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a movie theater, the audience is quietly enjoying the audiovisual feast of a film. Suddenly, the lights on the ceiling fall down, hitting several people and causing chaos. People scramble and flee, terrified cries echoing through the air. Some people lie in pools of blood, unconscious, making the scene even more chaotic.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a residential complex, a building suddenly catches fire, with flames spreading rapidly and black smoke billowing into the sky. Multiple residents are trapped inside, desperately calling for help. However, due to the intense fire, firefighters are unable to enter. People at the scene are extremely anxious, shouting for rescue.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In a park, trees sway gracefully, flowers bloom, and people stroll or jog. Suddenly, a wild beast appears out of nowhere and charges towards the crowd, causing great panic. People run in all directions, shouting for help.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In an amusement park, people are having fun, with laughter filling the air. However, suddenly, a roller coaster malfunctions, and the riders find themselves in danger. Some scream, while others hold onto the safety bars tightly, creating chaos at the scene.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Inside a television station, reporters are conducting interviews for news. Suddenly, an armed assailant storms into the station, brandishing a gun, causing chaos at the scene. Staff members run in all directions, while the police urgently rush to the television station, creating an exceptionally tense atmosphere.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The crane at the construction site went out of control, and its enormous iron arm slammed into the building under construction. A loud crash and screams filled the air as people scattered in panic. The collapsed structure emitted thick dust, and the air was filled with the smell of burning and the sounds of anguish from the injured.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A yacht capsized at the waterside amusement park, plunging people into the turbulent sea. Screams and cries for help resounded as visitors desperately swam towards the shore. The churning waves and the pungent smell of seawater created a suffocating sense of panic.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A fire broke out in a caf\u00e9, filling the air with thick smoke and spreading flames. People ran in darkness, their screams and calls for help blending together. The crackling of burning wood and paper, accompanied by the reflection of flames on the walls, intensified the horrifying and chaotic scene.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A car accident occurred on a mountain road, causing a vehicle to plummet off a cliff. The sound of crashing and screams filled the air, while survivors struggled to escape. Falling rocks produced a dull rumbling, and a heavy scent of dust and pine filled the surroundings.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "An electric shock incident occurred in the swimming pool of a beach resort, causing people to be shocked in the water. Sirens and calls for help echoed as lifeguards and visitors desperately tried to rescue those in distress. The electric current emitted a piercing buzz, creating an eerie and shocking atmosphere.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A series of car accidents took place on the highway, with the sound of car collisions echoing continuously. People ran amidst the traffic, displaying fearful and pained expressions. Some vehicles caught fire, and the resulting flames and black smoke made the surroundings suffocating.",
+    "response": "h"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "This image depicts a protest against a new state legislation, with demonstrators holding up signs advocating for legal rights and full legalization of all workers. The protestors include both men and women, one of whom is holding a paper and another holding a flag. Some signs read \"Equal Rights for All Workers\" and \"Legalizaci\u00f3n Para Todos\". The main focal point of the image is the group of protestors gathered together with their signs, while in the background there is a black and white striped wall.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "This image depicts a man in a suit captivating an audience on stage, standing next to a microphone. He stands on a wooden floor with a hole in it and is surrounded by black chairs, some with holes in the seats. The audience sits in an auditorium with blue ceilings and lights. The logo for Ian Hodgson is visible in the background. An elderly man is also seen sitting down at a grey table nearby.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The image shows a white sign with black letters that read \"Forgive them\" and \"Luke 23:34\". There is also text on the wall that says \"Jesus said, 'Father forgive them, for they do not know what they are doing.'\" A silhouette of a person is visible on a hill in the background. The colors black and gold are used for some of the letters and there is a black cross and a black square with yellow outline. The overall message conveyed in the image is about forgiveness.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The image depicts a woman dressed in a red hat and dress walking through a grassy field with her white horse. The horse's tail can be seen swishing behind it. In the background, there is a sign that reads \"gettyimages\". The only other notable detail is the black backpack worn by the woman.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A bus is seen driving down a narrow road in the mountains. In the background, there are large green mountains and a forested mountain. The bus is white in color and is surrounded by green hillside and trees. The image captures a beautiful valley with mountains in the distance as the bus drives through it.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "This is an image of a playground with children playing on monkey bars, swings and other equipment. A young girl is seen swinging on a red swing while a boy in a yellow shirt climbs on the monkey bars. In the background, there is a black and white photo of a cross and a red towel hanging from one of the structures. There is also some text visible in the image.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the image, we see a lone man standing on top of a hill. The sky above him is painted with vibrant colors as the sun sets over the rolling hills in the distance. There is also a stone pillar nearby. We can see a view of mountains and green fields in another part of the image. Additionally, there are various texts visible, including \"Getty Images\" and \"Photos by R A Kearton\".",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the shipyard, a group of engineers and workers are seen checking and working on a propeller. There is also a large sheet of plastic wrapped around various objects such as a boat, piece of wood, chair, and tree. Additionally, there is a metal machine with a cage and plate in the vicinity. The image contains several logos including gettyimages and Bloomberg. Lastly, there are two individuals wearing hats including one man in a hard hat and gray suit who appears to be jumping.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "A man with dark hair is climbing a steep rock face. He wears a blue shirt or a grey tank top with a zipper. There is a brown rock and a brown dog head in the image. The word \"mammy\" is written in brown. There is also text at the bottom of the image that says \"alamy-GKPMMA\".",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "This image shows a group of silhouettes of teenagers jumping in the air, captured in black and white. The figures are depicted mid-jump, with their arms and legs extended. The main focus is on a central figure, with others surrounding them. Additionally, there are two lines of text located at the bottom of the image, reading \"alamy\" and \"GERPMN\".",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In this image, we see a man in a black shirt standing in the water. He is attempting to take off his wetsuit, which has a yellow logo on it. A lifeguard suit with a similar logo can also be seen nearby. Additionally, there is a yellow swimming cap with goggles on it. In the background, we can see a blurry white building against a blue sky and an abstract white and blue image of a person. There is also a yellow and black triangle with a black stripe visible. All of these objects are positioned in different areas within the frame of the image, but they all come together to create an overall scene of endurance sports management and practice for triathlon events.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "This image shows a large group of people taking shelter in a large room after being displaced by a hurricane. The people are wearing different colored clothes including light colored dresses, white tank tops, green shirts, and yellow shirts. There is also a red shopping cart and a blue backpack visible in the room. A man holding a sandwich and a woman wearing black shorts are also present. In the background, there is a black curtain hanging in the air.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the image, a woman and her two children walk in the rain. They are dressed for the wet weather, with the winner of something wearing a green jacket. The sidewalk they walk on is lined with a small green tree and a white chair can be seen in the background. One child wears blue shoes and the other wears blue pants. The woman is wearing jeans and a jacket while another person wears ripped jeans and a white shirt nearby.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In this image, we can see a national football team training session with players wearing white and blue uniforms. One player with tattoos on his arm is walking while another player is standing in the background. The Argentina football shirt and soccer shorts are also visible in the picture. There are some text logos of Coca-Cola, Claro-, GettyImages, and EITAN ABRAMOVICH in the image as well.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In this image, we see a jockey riding his horse with a blue jacket that has the word \"Emirates\" written on it. The jockey is waving to the crowd while celebrating his victory. Beside him, we can see a man in a suit and hat wearing sunglasses, and another man in a suit with a yellow tie. There are also several people and flower planters in the background. The texts \"Emirates\" and \"Fly\" are visible on the image as well. Overall, it seems to be an exciting event with lots of people gathered to celebrate the jockey's win.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In this image, a crew of 15 people are seen working on a large concrete structure made out of wood, acrylic, steel, and mortar. One man in a black shirt and gloves is bending over to pick up something while another man in brown pants and a black shirt is also present. A piece of wood with a blue tarp over it can be seen in the background. The workers seem to be focused and busy with their tasks.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "The image depicts a man with a beard wearing a t-shirt with the word \"no\" on it. He is standing in front of various signs with the same word written on them. In the background, there is a woman's bare back. The man seems to be yelling or protesting something while holding onto someone's leg. The overall message conveyed by the image is likely related to some sort of defiance or protest against rules or authority, possibly pertaining to animal rights given the mention of vegetarianism and animal lovers in one caption."
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "Two people are walking on a trail in the mountains. The image depicts a beautiful protected site with green plants in the foreground, a large rock on the ground, and several bushes with green leaves. In the background, there is a mountain with clouds in the sky and a blue cloud. The grassy area has a small bush in the middle and there is also a small green plant nearby. A rock with a large piece of wood on it can be seen as well as another rock that has purple coloration on it.",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In this image, we see a man riding a horse in an arena. The man is wearing a sweater and a red hat. The horses are performing a short show for the audience. In the background, there is a blue paper with purple and blue lights shining on it. At the bottom of the image, we can see text that reads \"Beyond the little Red Dot\".",
+    "response": "l"
+},
+{
+    "instruction": "Please perform Scene Security Level Recognition task. Given the paragraph, assign a security level label from ('n'='no risk', 'l'='low risk', 'm'='medium risk', 'h'='high risk', 'H'='extremely high risk'). Return label only without any other text.",
+    "input": "In the image, a woman and her two children walk in the rain. They are dressed for the wet weather, with the winner of something wearing a green jacket. The sidewalk they walk on is lined with a small green tree and a white chair can be seen in the background. One child wears blue shoes and the other wears blue pants. The woman is wearing jeans and a jacket while another person wears ripped jeans and a white shirt nearby.",
+    "response": "l"
+}
+]
