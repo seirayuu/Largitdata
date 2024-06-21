@@ -1,0 +1,1618 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sky is gloomy, with dark clouds and gusty winds. People on the street are hurrying, clutching their clothes tightly as they move forward. The dim lights on both sides of the shops create a sense of oppression throughout the neighborhood. People are quickening their pace, as if searching for shelter."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the midst of a riot at a sports event, people push and shove each other, fighting on the ground. The chaotic scene appears disordered and uncontrolled. Everyone struggles in the chaos, but cannot change the fact that the situation is becoming increasingly chaotic."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a crowded farmers market, people have pale faces and nervously squeeze through the crowd. Abandoned food on stalls emits a nauseating smell, while vendors are busy cleaning contaminated goods. People scramble to escape, as if the whole market has turned into a dangerous powder keg."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A music concert venue is filled with smoke, and flames flicker on stage. The audience panics, fleeing in all directions. The sound of stomping and screams fills the entire space. The scene is chaotic, and everyone tries their best to avoid this disaster."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On a construction site of a tall building, a worker slipped and fell from the top, but fortunately, he only sustained minor injuries. The workers were busy with the construction, and the view from the height was dizzying. Suddenly, the worker slipped and lost his balance. He watched his body fall down, filled with fear and despair. However, his fate seemed not entirely in his own hands."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In an indoor playground, children were playing happily, screaming and jumping, enjoying the rhythm of the music. However, the crowd was too crowded to accommodate more people. Suddenly, people began to squeeze each other outward, causing a small stampede. Several people were knocked down, plunged into pain and panic. They made a wailing sound, trying to seek help. Finally, staff and security personnel rushed to the scene, urgently launched rescue work."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a skiing activity, a beginner was bravely challenging a steep slope. He felt the speed and excitement of skiing, wanting to enjoy the process. However, due to the lack of skill, he lost his balance and fell to the ground. His body collided violently with the snow, making a painful groan. Eventually, he stopped in an awkward position, and his ankle was sprained."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a fishing boat out to sea, the sea breeze blew gently on the faces of the fishermen, and the sunlight sprinkled on the sea, shimmering with beautiful light. However, suddenly, a strong wind blew and the sea was raging. The boat was shaking, and the fishermen desperately grabbed anything they could, trying to maintain their balance. However, one of the crew members did not hold on and was thrown into the sea by the huge waves. He struggled desperately but to no avail. Fortunately, other crew members rescued him urgently and saved him from the clutches of death."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On an airplane, the pilot suddenly feels unwell, and the passengers witness this and start to panic. Soon after, the plane starts shaking continuously, accompanied by various sounds. Passengers put on oxygen masks and begin to worry about their safety, feeling a sense of unease and fear in the air."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a subway station, passengers are queuing up, waiting for their trains. Suddenly, a woman collapses on the ground, causing congestion. Other passengers start to panic, some dial emergency numbers, while others attempt to perform CPR on the collapsed woman. The scene is tense, with the crowd constantly surging."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In an amusement park, people are having fun, with laughter filling the air. However, suddenly, a roller coaster malfunctions, and the riders find themselves in danger. Some scream, while others hold onto the safety bars tightly, creating chaos at the scene."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a nightclub, music blares loudly, and people are reveling in the atmosphere. Suddenly, a drunk person storms into the venue, knocking over tables and chairs, triggering a violent incident. The scene becomes chaotic, with people fleeing and the drunk person shouting, causing more panic."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a sports stadium, spectators cheer passionately for their supported team. Suddenly, a fan goes on a rampage and charges towards the players on the field. The scene is immediately filled with chaos, as people flee and the police respond urgently."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a hospital, people wait in line to see a doctor. Suddenly, a patient's condition deteriorates, causing chaos at the scene. Other patients start to worry about their own conditions, while medical staff become busy, making the scene exceptionally tense."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside an elevator, people wait for its arrival. Suddenly, the elevator stops abruptly, trapping people inside and putting them in danger. Some people panic and press the emergency button, while others try to open the elevator doors themselves to seek help."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a supermarket, people are shopping and selecting goods. Suddenly, a customer collapses, causing panic at the scene. Others quickly call for emergency assistance, while store employees rush to transport the collapsed customer to the hospital, making the scene exceptionally tense."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a food factory, workers are producing food. Suddenly, a machine malfunctions, causing chaos at the scene. Workers run in all directions, sirens blare, and cries for help fill the air, creating a chaotic atmosphere."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a gaming arcade, children are playing video games. Suddenly, a child feels unwell and collapses, causing panic at the scene. Other children shout for help, while parents begin to feel extremely anxious."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "At an outdoor music concert, spectators are enjoying the music, dancing with joy. Suddenly, a spectator collapses, triggering panic at the scene. Others cry out for help, while medical personnel rush to the scene, creating an exceptionally tense atmosphere."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a cement plant, workers are producing cement. Suddenly, a machine malfunctions, causing chaos at the scene. Workers flee in all directions, while firefighters begin to arrive, creating a scene of chaos."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "m"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The statute is of a warrior. There is a clock at the top of the monument. The numbers are in roman numerals. There are tables and chairs at the bottom of the concrete momument."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A round sign leans up against a pole and is chained to the pole. The sign says donuts saturday in red writing. There is a sidewalk next to the sign, and there are cars parked on the street in the background."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A man in a black suit is holding hands with an elephant. The elephant is large and gray, and is sitting on a table. The elephant and man are in a circus."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A man is attempting to hit a tennis ball back over the net. The court is blue and the outer part is green. He has on a blue navy shirt and some short blue navy shorts."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "there is a toilet in a bathroom. the toilet is white. there are tiles on the floor. the tiles are white and green. there is a bucket next to the toilet."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There are several people crossing the street. It is raining in the picture and they are holding umbrellas. There are also a lot of cars on the street. There is a building behind the people."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A man is wearing a red jacket and white pants. There is a black helmet and goggles on his head. He is holding ski poles in his hands. There is trees next to the man in the snow."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A round sign leans up against a pole and is chained to the pole. The sign says donuts saturday in red writing. There is a sidewalk next to the sign, and there are cars parked on the street in the background."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The restroom has a dirty toilet. Behind the toilet is a wooden wall. Two panels are standing in a parallel way in front of the toilet. the floor is dirty."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A baby is sleeping on a covered mattress. His shirt is black white and blue. The mattress cover has designs all over it. There is a doll with a blue and purple hoody nearby."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There is a bush that is shaped into a person. It is in front of a red building. There is houses behind the bush in the distance."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A crowd of people stand around a baby elephant. The baby elephant is standing inside of a fence. There are many tall and leafy green trees around the elephant. The ground under the elephant is dirty and brown."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A colorful train is on the train tracks. The train tracks have rocks on them. There are weeds on the side of the train."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There is a pink chair in a room. There is a lamp that is turned on in front of a large window. A woman is wearing a red jacket and holding a baby in her hands."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There is a large elephant walking on the dirt. There are two people sitting on a seat on top of the elephant. There are several trees surrounding the elephant."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "there is a black cow laying down. it has white horns on its head. the eyes of the cow are black as well. it has a rope tied around it's neck. there is another cow behind it, with a white spotted face."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A baseball game is being played. There are several players on the field. Their uniforms are red with white pants. There are spectators sitting in the stands watching the game."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A beach is in front of water. There are buildings on the beach. There is a white and red airplane flying over the beach."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There are several motorcycles lined up on the grass. There are people standing around them. There is a green motorcycle next to a black motorcycle."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "People standing behind a table. On the table there is a pizza on a white plate, small white bowls and a wine bottle. One of the men is wearing a white shirt and a white hat. Four of the men are wearing light blue shirts."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "n"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "l"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image depicts a mountainous landscape with storm clouds looming overhead. The sky is very cloudy and dark, with gray and black clouds visible. The mountains are green and have a black line running along them. In the foreground, there is grass visible. A woman's head with dark hair can also be seen in the image. Overall, it appears to be a time lapse of storm clouds traveling over the hillside and mountains."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "This image shows a man wearing a suit with a brown necktie. His left hand is visible in two separate regions. He is giving a thumbs up gesture and has a beard on his face. Although there are other objects in the image, such as a chicken leg with a knife in it, they are not the main focus of the image."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image shows actors attending a premier event and press conference for the film. A woman in an orange jacket and a man in a black jacket are present, along with a wooden baseball bat and a brown wooden baseball bat. A red and black microphone is also visible. Two women pose for a picture, while another woman in a black dress has her hand up. Another woman in an orange kimono holds both a knife and sword. The image also includes various items such as a white paper bag with a red heart on it, an orange cloth folded, and a wooden board with wood on it. Texts from Getty Images and Jun Sato are present as well as the number 478168672."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image is a vector illustration showing a father and son raking leaves in the yard during the fall season. The father is wearing a blue sweatshirt and jeans, while the son is wearing a brown jacket and blue pants. There is also a cartoon tree with a large trunk and small branch in the background. Additionally, there are various objects scattered throughout the image such as a person holding a stick, a black background with white line, a boy holding both knife and stick, and more."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image shows a man sitting on a yoga mat, exercising with a rubber band and small ball. Surrounding him are various cartoon objects, including a yellow plastic knife handle, a red rectangle with white border, a yellow arm with long and small arms, and a yellow stick with long handle. There is also a triangle with a red triangle on it. The color yellow is prominent in the image."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the kitchen, a chef in a white shirt prepares dough on a metal table covered in flour. He holds a knife while working with the rectangular metal pan beside him. The pan has a lid and is silver in color. Another person wearing a blue shirt stands behind him. In the background, there is a mountain with a white cloud on top. A black metal plate with a small hole and other objects are scattered around the area."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the restaurant kitchen, a chef is preparing a piece of salmon on a cutting board. They hold a knife and skillfully cut the fish into pieces. Alongside the salmon, there are various ingredients such as a white potato with a brown stem and red peppers. One of the peppers is shown sliced up. Another item in the image appears to be a piece of meat with a hole in it."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "This image depicts a punk girl with blonde hair holding a bat and standing in front of broken glass. She is also seen holding a knife in front of the same window. The image is black and white with lines running horizontally across it. The girl is wearing a red dress and there is text at the bottom of the image indicating its source."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this cartoon drawing, a woman is holding a box with the word \"fear\" on it. The woman has a big smile on her face, and she's standing next to a boat. There are also black and white drawings of birds, shoes, and a knife in the image."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this image, we see a Christmas elf holding a game controller. He is standing in front of a console with various black and white images on it, including a game controller and a curved knife. The console also has the logo for \"shueterstsck\" and the website shown. At the bottom of the image, there is black lettering with a white arrow pointing towards the console. Overall, the image appears to be related to gaming or technology."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image shows a woman in a salon getting her hair cut and undergoing a cosmetic procedure to extend her white hair. A blue comb is visible in her hair, while a plastic clip is being used to cut it. In the background, there are various objects including a white fabric with the word \"interest\" on it, a blue plastic knife blade and two red plastic bags with white labels/stickers. The texts \"shutterstock\" and \"www.shutterstock.com-761270092\" are also visible in the image."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "This image depicts a large and ornate stone cathedral with a golden gilded tower crowned with a cross. Inside the church, there is a painting of a woman holding a baby and another painting of the same woman on the wall. A statue of Jesus on the cross stands in one corner, while a golden vase with intricate designs is placed in another corner. Additionally, there is a brown and white marble piece with beautiful designs, and a knife with an elegant gold handle and silver blade. Finally, there is also a brown and black vest with an emblem on it hanging on one wall."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image shows a cartoon woman in an apron with various symptoms, including holding her stomach and a tear in her eye. Another cartoon woman is wearing a mask and holding a sign that says \"no mask, no service\". A few other characters are also present, including a girl with a sad expression and a woman holding a knife. The overall scene seems to depict some sort of emotional or physical distress among the characters."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this image, a person is cooking fish in a frying pan on a stove. The pan has a spoon in it and there is also a shovel nearby. A piece of meat is shown on the side. A fire is burning in the shape of a triangle in the distance. Additionally, there is a brown and white knife with a handle visible."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image shows a young woman enjoying her lunch break at a restaurant. She is sitting at a table with a plate of Chinese food in front of her. The woman is smiling and holding a knife in one hand. There is also a white plastic chair visible on the floor beside her. In the background, there is an abstract green and white painting hanging on the wall. Additionally, there is a photo of the woman smiling visible in the frame."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "This image features a fossil women's watch with a red leather strap, along with other items such as a knife with red and white handles, a white thermometer, and a clock with minute and second hands. The fossil logo is also visible. The watch is the main focus of the image, positioned in the center with its bold red strap standing out. The other objects are arranged around it in no particular pattern. The overall style of the image appears to be classic yet casual, fitting for an everyday look."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this image, we see a man harvesting latex from a rubber tree by tapping it with a knife. He holds red scissors in his hand and has a black bowl of water nearby. Other objects in the image include a coconut with white liquid inside and various white objects on a surface. We also see a close-up of the tree trunk, which has moss growing on it. A white rock with a black spot sits in the background. Overall, this image depicts the process of obtaining latex from rubber trees and includes several related objects and details."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A bride stands on a bridge wearing a white plus size wedding dress from the collection. The strapless neckline of her dress is silver and white. There is a knife with a silver blade nearby, as well as a metal tube."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "n"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the kitchen, a woman with a blue shirt is preparing a fruit salad. She is smiling at the camera while holding a knife. There are various fruits on the table including apples, oranges, and lemons. The woman is cutting an unknown fruit with the knife. In another area of the table, there is a bowl filled with fruit. In addition, a green apple is placed on top of a lemon and there are two other apples in another bowl. Lastly, there is half an orange on the table. A close-up of the woman's face shows her eyes closed as she concentrates on preparing the salad."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The image depicts a man walking along the beach with a pier visible in the background. He is in black and white and appears to be accompanied by a dog. In the foreground, there is a black hat with a brim. Other objects in the image include a silhouette of a plane, a knife, and the logo for gdacs. Texts are also visible including \"amy\" and \"www.alamy.com-GDACN5\"."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "l"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A young man is surfing on a high wave.  He has reached the height of the wave.  His hands are out for balance.  He has short hair and is wearing a wristband.  He is white.  No other people are visible.  It is an overcast day."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the dimming forest, Little Li and her friends were on a hike and accidentally got lost. As nightfall drew near, the forest echoed with the roars of wild animals. They had to find their way home, or face the danger of being stranded in the forest."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A fire broke out in the building, filling the air with smoke. Residents were fleeing from the windows of the high-rise, but the fire exits were blocked. Firefighters arrived at the scene, but rescue operations were difficult."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A group of people were playing on the ice, when suddenly the ice broke and someone fell into an ice hole. Others tried to rescue them, but the ice became increasingly unstable."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "With dark clouds looming in the sky, a storm was approaching. People quickly fled home, but the wind was so strong that it flipped some roofs and billboards."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On a sunny summer afternoon, Xiao Li was installing a billboard on the roof of a tall building. There were no other workers around. Suddenly, the safety rope broke and Xiao Li fell quickly from a height of 10 meters. Below was an open space with no people or vehicles passing by. The surrounding buildings seemed quiet, except for the faint sounds of vehicles and crowds in the distance."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the deep sea, sunlight shines through clear water into the underwater world. Diver Xiao Zhang is swept away by an undercurrent and his oxygen tank falls off. He struggles to surface, and the surrounding water becomes cloudy and unclear. In the distance, strange sounds of underwater creatures can be heard, as if mocking his helplessness and fear."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the midst of the city's hustle and bustle, a worker was performing maintenance at the top of a tall building. As a strong wind blew by and the planks beneath his feet suddenly broke, he fell, plummeting towards the ground. His co-workers at the base and passersby looked on in horror as he fell."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A fully loaded truck carrying chemicals was on the highway when suddenly there was a leak, and a purple gas began to rise from the cargo. Residents nearby quickly closed their doors and windows to avoid the pungent smell. As emergency vehicles including ambulances and fire trucks arrived on the scene, sirens filled the quiet night air."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Heavy rain pelted the city, causing the drainage system to become overwhelmed. The water level in the low-lying areas quickly rose, and residents fled their homes as cars floated through the flooded streets. Rescue workers navigated through the chaos in boats, doing their best to assist those trapped and damaged vehicles."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "At a busy intersection, cars stream by. Suddenly, two vehicles collide, sending fireballs and debris flying. Pedestrians nearby stand in shock, watching as smoke fills the air. Rescue personnel arrive at the scene promptly to provide emergency assistance. This car crash leaves an indelible scar on the busy intersection and on the hearts of those who witnessed it."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On the sports field, an athlete tragically collapses during a competition. The audience falls silent, watching in horror as the athlete lies motionless on the ground. Medical personnel rush to attend to the injured athlete while giving emergency treatment. After treatment, the athlete regains consciousness but still requires long-term rehabilitation. This accident remains a heartbreaking moment for both the athlete and his supporters."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sun shone on the lake, casting sparkling light on the water's surface. Qiang was playing by the edge of the lake when he accidentally fell into the water. As the child disappeared beneath the surface, the water's surface rippled and sparkled in the sunlight."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The parking lot of a large shopping mall was spacious and clean, with vehicles orderly parked in their respective spaces. Suddenly, a loud noise echoed in the air, the sounds of vehicles colliding and metal clashing intertwined. After support columns collapsed, the tremendous impact affected other parked vehicles, producing sharp braking sounds and shattering glass. The scene became chaotic, with dust flying, and crushed vehicles formed an eerie sight."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The enclosed swimming pool had shimmering water, and sunlight poured through the glass roof, reflecting the cheerful smiles of swimmers. Suddenly, a pungent smell permeated the area, and the swimmers started coughing and vomiting. They swam desperately toward the shore, searching for an exit. The air carried a sense of urgency and tension, as some people couldn't withstand the toxic gas and fell into a coma, creating a scene of emergency rescue."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A fire broke out in the kitchen of a fast food chain due to a malfunctioning range hood. Black smoke filled the air and flames raged. The chefs immediately realized the danger and quickly evacuated customers. Although some people were burned by the flames, the chefs bravely extinguished the fire and eventually gained control of the situation."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On a busy highway, a multiple vehicle collision occurred due to a rear-end accident. The accident caused many people to be injured, and several people suffered serious injuries and required emergency rescues. Ambulances and police quickly rushed to the scene and launched rescue and traffic diversion work."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "On a golf course, a player stood on a rolling fairway, swinging his iron club in preparation to hit the ball. His posture was elegant and focused, and the surrounding audience watched quietly. However, just as he was about to swing, an inadvertent mistake occurred. The golf ball flew uncontrollably towards another player on the fairway, hitting him hard on the head. The player collapsed on the spot, blood seeping from the wound."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "m"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a primary school playground, fresh green grass covered the ground while the sun shone through the clouds. Students ran joyfully, laughter echoing in the air. Due to the slippery ground after rain, one student accidentally slipped and fell. His fall triggered a chain reaction, causing other students to fall too, creating chaos. One student unfortunately suffered a fracture, screaming out in pain."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a shopping mall, people came and went on the escalator. The metal plates of the escalator reflected light, and the noisy shopping sounds and cheerful music filled the entire space. Suddenly, the escalator stopped running, causing people to lose their balance and sway. One customer could not control their body and fell heavily on the escalator, injuring their head, and blood flowed from the wound."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "h"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "H"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Two airplanes are flying in the sky very close to each other. They are flying towards each other and look close enough to collide. The airplanes are both white with red stripe on the bottom half of the fuselage. The planes have small red engines on its wings. The sky is white."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A loud bang suddenly sounded on the tracks as the moving train derailed and toppled onto the side of the tracks. In the surrounding fields, the wheat waves undulated with the wind. The passengers in the carriage panicked and fled from the compartment, screaming and crying. The air was filled with the smell of metal and paint. The distant mountains looked particularly peaceful in the setting sun."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As a train rounded a bend, it suddenly derailed, sending the passenger cars crashing to the tracks. Glass shattered everywhere as passengers screamed and fled from the overturned cars. Rescue workers quickly arrived at the scene, with medical personnel tending to the injured and railway workers scrambling to clear the tracks."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The construction site was filled with dust and debris as reinforced concrete structures were taking shape. Suddenly, a deafening crash was heard, and part of the building collapsed in a heap of rubble. Debris and dust filled the air as workers fled the scene in panic. Rescue teams arrived promptly and began searching for survivors amidst the wreckage."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the bustling city center, a truck loaded with explosives suddenly let out a deafening blast. Flames and smoke billowed into the sky, trembling the surrounding buildings. People fled in panic, and the atmosphere was filled with dust and debris. The rescue team arrived at the scene promptly to begin their rescue efforts."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Amidst the steep mountains, a mountaineer accidentally steps off a cliff and disappears from sight. The howling wind and rustling trees seem to mourn for the unlucky climber. The rescue team braves the cold and rain to climb uphill, hoping to find any trace of the missing person."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A yacht suddenly encounters a violent storm on the calm sea. Giant waves crash against the hull, and the wind howls furiously, as if trying to tear the yacht apart. The passengers panic and are forced to abandon ship. The sea is turbulent, and the rescue team rushes to conduct a frantic search and rescue operation."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside the underground mine, the sound of cracking rocks echoes. Suddenly, a deafening blast rocks the mine, plunging it into darkness. The rescue team quickly assembles, braving life-threatening conditions, to search for the trapped miners. The families anxiously await news, praying for their loved ones' safety."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "High above the ground, the sun shone down on the construction site. Worker Zhao was performing his job at a dangerous height when a strong wind suddenly blew, causing him to lose his balance and fall. The ground safety officer gaped as he quickly dialed for emergency assistance."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "It The mall was bustling with activity when suddenly a loud explosion rocked the building, sending people into a panic and fleeing in all directions. turned out to be a terrorist attack, leaving the mall in chaos."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The machines at the factory were humming loudly when suddenly a deafening explosion rocked the building, sending fire and smoke billowing into the air. The employees fled in panic, their faces covered in dust and soot from the explosion."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the fury of wind and rain, houses shook and swayed, threatening to collapse. Floodwaters surged through the streets, swallowing up villages and farmland. People fled in panic, seeking safe refuge as the scent of mud and water filled the air."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a busy city center, on a sunny morning, people hurriedly walked through crowded streets. Suddenly, a small plane lost control and plummeted from the sky. The sharp engine noise and the sound of wind filled the entire square, instantly shattering the calm atmosphere. The plane crashed into the ground with a loud roar, scattering debris and leaving bloodstains and scattered items in the air, creating a tragic scene."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The production workshop of a chemical factory was filled with the noisy sounds of machines running. Workers wore safety gear and focused on operating the equipment. Suddenly, a loud noise broke the tranquility, and thick smoke and flames quickly spread. The workers screamed and tried to escape the scene, but the fire spread rapidly, trapping them. The choking smoke and scorching flames made it impossible for them to breathe, causing serious injuries or death."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Analyze and compare the two classical music composers Wolfgang Amadeus Mozart and Ludwig van Beethoven on aspects such as musical style, philosophical beliefs, and overall influence on music history."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A mountainous road meandered, surrounded by lush trees. The sunlight filtered through the leaves and sprinkled on the road, giving a sense of tranquility and serenity. Suddenly, a truck went out of control and crashed into a bus. The collision produced a piercing metal friction sound, mixed with screams of terror. The passengers in the bus were thrown around by the violent impact, their bodies colliding with the hard objects inside the cabin, creating a scene of carnage and chaos."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a large sports stadium, the crowd roared with excitement, cheering and applauding. Lights flickered, and music reverberated. Suddenly, flames soared from the edge of the stage. The audience panicked and rushed towards the exits, causing congestion and confusion. Smoke quickly filled the air, thick gray smoke obscured the view, making it impossible to discern the direction. Some spectators were trampled in the crowded crowd, screams and cries intertwined, forming a chorus of panic."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a high-tech company's laboratory, calm and quietness prevailed as equipment hummed softly. Staff members focused on operating instruments. Suddenly, a violent explosion shattered the tranquility, and the lab was filled with acrid smoke and burning smell. The staff members frantically searched for an exit, but the fire spread quickly, fierce flames licking the walls and furniture, creating a terrifying disaster scene."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inside a large hospital's operating room, white walls and bright surgical lights created a clean and professional atmosphere. Medical staff wearing masks and gloves were carefully performing surgery. Suddenly, monitoring equipment emitted an alarm sound, and the patient's condition rapidly deteriorated. Doctors hurriedly adjusted the equipment, but the patient's condition worsened dramatically, ultimately resulting in death from surgical complications. The operating room was filled with a heavy and disappointed atmosphere."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In a closed swimming pool, a chemical substance leakage occurred due to improper water treatment. Swimmers suddenly smelled a pungent odor, felt difficulty breathing, and their eyes started to burn. In an emergency, swimmers crowded towards the edge of the pool, trying to quickly leave the area."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A forest fire suddenly broke out in a remote mountainous area. Thick smoke billowed, flames raged, and nearby residents were forced to evacuate. Some people were injured during the evacuation due to complex terrain and rapid fire, and one person unfortunately died."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "H"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "h"
+    }
+  }
+]
